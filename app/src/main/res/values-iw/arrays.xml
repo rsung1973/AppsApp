@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="screen_timeout_entries">
+        <item>15 שניות</item>
+        <item>30 שניות</item>
+        <item>דקה אחת</item>
+        <item>2 דקות</item>
+        <item>5 דקות</item>
+        <item>10 דקות</item>
+        <item>30 דקות</item>
+    </string-array>
+
+    <string-array name="entries_font_size">
+        <item msgid="6490061470416867723">קָטָן</item>
+        <item msgid="3579015730662088893">נוֹרמָלִי</item>
+        <item msgid="1678068858001018666">גָדוֹל</item>
+        <item msgid="490158884605093126">עָצוּם</item>
+    </string-array>
+</resources>

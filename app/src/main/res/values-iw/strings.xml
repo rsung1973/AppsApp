@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">שירות</string>
+    <string name="main_btn_logger">סמס</string>
+    <string name="main_btn_apps">דפדפן</string>
+    <string name="main_btn_cook">טבח</string>
+    <string name="main_btn_mall">קניון</string>
+    <string name="main_btn_stock">ממשלה</string>
+    <string name="main_btn_map">מפה</string>
+
+    <string name="logger_text_no">מספר</string>
+    <string name="logger_text_data">תוכן</string>
+    <string name="logger_text_ts">תאריך</string>
+
+    <string name="logger_view_title">"תוכן סמס"</string>
+    <string name="logger_view_ok">"אוקיי"</string>
+
+    <string name="logger_notify_title">""הודעת שירות התקבלה."</string>
+
+    <string name="brower_webtalk_query">"התקן שאילתות"</string>
+    <string name="brower_webtalk_call">": התקן התקשרות"</string>
+    <string name="brower_webtalk_err">"שיחת התקן נכשלה"</string>
+
+    <string name="brower_loading">" ...טוען"</string>
+    <string name="brower_err_title">"שגיאה"</string>
+    <string name="brower_err_prompt">"השירות נכשל בהטענה"</string>
+    <string name="brower_err_ok">"אוקיי"</string>
+
+    <!-- Apps MAIN -->
+    <!-- Setting -->
+    <string name="login_title">מערכת</string>
+    <string name="login_passwd_prompt">סיסמא</string>
+    <string name="login_passwd_ok">OK</string>
+    <string name="login_passwd_cancel">בטל</string>
+
+    <!-- Credentials -->
+    <string name="credentials_title">Credentials</string>
+    <string name="credentials_old_pwd">סיסמא ישנה</string>
+    <string name="credentials_new_pwd">סיסמא חדשה</string>
+    <string name="credentials_confirm_pwd">אשר סיסמא חדשה</string>
+
+    <!-- Date -->
+    <string name="date_title">תאריך ושעה</string>
+    <string name="date_automatic_date_time">תאריך ושעה אוטומטיים</string>
+    <string name="date_automatic_date_time_content">Use network-provided time</string>
+    <string name="date_automatic_time_zone">איזור זמן אוטומטי</string>
+    <string name="date_automatic_time_zone_content">Use network-provided time zone</string>
+    <string name="date_set_date">תאריך</string>
+    <string name="date_set_time">שעה</string>
+    <string name="date_select_time_zone">איזור זמן</string>
+    <string name="date_24_hour_format">12H/24H</string>
+    <string name="date_ntp_configuration">NTP</string>
+
+    <string name="date_24_hour_example">13:00</string>
+    <string name="date_12_hour_example">1:00 PM</string>
+    <string name="date_ntp_config_automatic">אוטומטי</string>
+    <string name="date_ntp_config_manual">ידני</string>
+    <string name="date_dialog_title_select_time_zone">בחר איזור זמן</string>
+    <string name="date_dialog_title_ntp_server_configuration">NTP הגדרת שרת</string>
+
+    <!-- Display -->
+    <string name="display_title">תצוגה</string>
+    <string name="display_brightness_level">עוצמת בהירות</string>
+    <string name="display_sleep">שינה לאחר</string>
+    <string name="display_font_size">גודל פונט</string>
+
+    <!-- Sound -->
+    <string name="sound_title">שמע</string>
+    <string name="sound_notification_title">שמע והתראות</string>
+    <string name="sound_ring_vol">עוצמת צלצול</string>
+    <string name="sound_intercom_vol">עוצמת אינטרקום</string>
+    <string name="sound_phone_ringtone">רינגטון</string>
+    <string name="sound_dial_pad_tones">צליל חייגן</string>
+    <string name="sound_touch_sounds">צליל לחצנים</string>
+    <string name="sound_screen_locking_sounds">צליל נעילת מסך</string>
+
+    <string name="sound_auto_answer">מענה אוטומטי</string>
+    <string name="sound_button">כפתור</string>
+
+    <!-- Ethernet -->
+    <string name="ethernet_title">Ethernet</string>
+    <string name="ethernet_ip_mode">Ethernet Ip mode</string>
+
+    <string name="ethernet_enabled">Ethernet is enabled</string>
+    <string name="ethernet_disabled">Ethernet is disabled</string>
+
+    <!-- Language -->
+    <string name="language_title">שפה</string>
+    <string name="language_input_title">Language \u0026 input</string>
+    <string name="language_input_content">English(UK):Android Keyboard(AOSP)</string>
+
+    <!-- wifi -->
+    <string name="wifi_title">Wi-Fi</string>
+    <string name="wifi_add_network">הוסף רשת</string>
+
+    <string name="wifi_network_ssid">Network SSID</string>
+    <string name="wifi_security">אבטחה</string>
+    <string name="wifi_password">סיסמא</string>
+    <string name="wifi_show_password">הצג סיסמא</string>
+    <string name="wifi_show_advanced_options">הצג אפשרויות מתקדמות</string>
+    <string name="wifi_ip_settings">IP הגדרות</string>
+    <string name="wifi_ip_address">IP כתובת</string>
+    <string name="wifi_gateway">Gateway</string>
+    <string name="wifi_network_prefix_len">Network prefix length</string>
+    <string name="wifi_dns1">DNS1</string>
+    <string name="wifi_dns2">DNS2</string>
+
+    <string name="wifi_ntp_server_1">NTP Server</string>
+    <string name="wifi_ntp_server_2">  NTP Server 2</string>
+
+    <string name="wifi_status">סטטוס</string>
+    <string name="wifi_signal_strength">עוצמת אות</string>
+    <string name="wifi_link_speed">מהירות חיבור</string>
+    <string name="wifi_frequency">תדר</string>
+
+    <string name="wifi_security_none">ללא</string>
+    <string name="wifi_security_wep">WEP</string>
+    <string name="wifi_security_wpa">WPA PSK</string>
+    <string name="wifi_security_wpa2">WPA2 PSK</string>
+    <string name="wifi_security_wpa_wpa2">WPA/WPA2 PSK</string>
+
+    <string name="wifi_dialog_forget_config">שכח הגדרה זו</string>
+    <string name="wifi_add_network_fail">הוספת רשת נכשלה, הרשת אינה זמינה</string>
+
+    <!-- reset -->
+    <string name="master_clear_desc">"פעולה זו תמחק את כל הנתונים ב"<b>"התקן זיכרון"</b> זה", כולל:\n\n"<li>"נתוני יישום Dnake"</li> </string>
+
+    <!-- dialog text -->
+    <string name="dialog_title_system">מערכת</string>
+    <string name="dialog_title_search">חפש דיאלוג</string>
+    <string name="dialog_title_delete">מחק דיאלוג</string>
+    <string name="dialog_msg_delete">האם אתה בטוח שברצונך למחוק איש קשר זה? פעולה זו אינה הפיכה.</string>
+    <string name="dialog_msg_delete_multi">האם אתה בטוח שברצונך למחוק אנשי קשר אלה? פעולה זו אינה הפיכה.</string>
+    <string name="dialog_title_save">שמור דיאלוג</string>
+    <string name="dialog_msg_save">האם אתה בטוח שברצונך לשמור איש קשר זה?</string>
+    <string name="dialog_title_first_set">שמור דיאלוג</string>
+    <string name="dialog_msg_first_set">האם אתה בטוח שרצונך לאשר הגדרות אלה?</string>
+    <string name="dialog_search">חיפוש</string>
+    <string name="dialog_confirm">אשר</string>
+    <string name="dialog_send">שלח</string>
+    <string name="dialog_cancel">בטל</string>
+    <string name="dialog_dtmf_input">"DTMF input Dialog"</string>
+    <string name="dialog_ok">OK</string>
+    <string name="dialog_alert">התראה</string>
+
+    <!-- validate text -->
+    <string name="validate_password">המשתמש מוצג, סיסמא זו היא חובה</string>
+    <string name="validate_login">הסיסמא מוצגת, המשתמש הינו חובה</string>
+    <string name="validate_password_valid">אנא הקש סיסמא תקינה, לפחות 8 אותיות או מספרים!</string>
+    <string name="validate_password_enter">בבקשה הקש סיסמא!</string>
+    <string name="validate_name_valid">אנא וודא כי השם אינו גדול מ32 אותיות!</string>
+    <string name="validate_language_enter">אנא בחר שפה!</string>
+    <string name="validate_plant_name_enter">Please enter the video door plant name!</string>
+    <string name="validate_device_name_enter">אנא הקש שם מכשיר!</string>
+
+    <string name="none_txt">ללא</string>
+    <string name="networking_title">רשתות:</string>
+    <string name="networking_dialog_connect">התחבר</string>
+
+    <!-- tuya -->
+    <string name="talk_text_main">דלת</string>
+    <string name="talk_text_person">דירה</string>
+    <string name="talk_text_unit_person">יחידה</string>
+
+    <string name="please_scan_qr">סרוק את הקוד!</string>
+    <string name="hint_edit_name">שם המכשיר</string>
+
+    <string name="devices_head_no">לא.</string>
+    <string name="devices_head_id">זיהוי</string>
+    <string name="devices_head_type">סוג</string>
+    <string name="devices_head_name">שם</string>
+
+    <string name="forward_app">מעביר את השיחה לאפליקציה</string>
+    <string name="notification">התראות</string>
+    <string name="app_monitor">ניטור אפליקציה</string>
+    <string name="app">ניטור אפליקציה</string>
+    <string name="uuid_isEmpty">Please config UUID and Authkey on Web first</string>
+    <string name="tuya_id">זיהוי</string>
+    <string name="tuya_name">שם</string>
+    <string name="tuya_type">סוג</string>
+    <string name="get_qr_err">קבלת הקוד נכשלה!</string>
+    <string name="app_unbound">App Unbound!</string>
+    <!-- Message -->
+    <string name="title_message">הודעה</string>
+    <string name="btn_clear">מחק</string>
+    <string name="title_incoming">נכנס</string>
+    <string name="title_outgoing">יוצא</string>
+
+    <string name="prompt_message_clear_all">האם ברצונך למחוק את כל ההודעות?</string>
+
+    <!-- Settings -->
+    <string name="title_settings">הגדרות</string>
+
+    <string name="menu_display">תצוגה</string>
+    <string name="menu_sounds">צליל</string>
+    <string name="menu_date">תאריך ושעה</string>
+    <string name="menu_language">שפה</string>
+    <string name="menu_devices">מכשירים</string>
+    <string name="menu_mode">מצב</string>
+    <string name="menu_version">גירסא</string>
+    <string name="menu_more">עוד</string>
+    <string name="menu_eth">Ethernet</string>
+    <string name="menu_wifi">Wi-Fi</string>
+    <string name="menu_room">חדר</string>
+    <string name="menu_sip">SIP</string>
+    <string name="menu_password">סיסמא</string>
+    <string name="menu_apps">אפליקציות</string>
+    <string name="menu_reset">אפס</string>
+
+    <!-- ethernet -->
+    <string name="networking_dhcp">DHCP</string>
+    <string name="networking_static">Static</string>
+
+    <string name="ethernet_ip_address">IP</string>
+    <string name="ethernet_netmask">Mask</string>
+    <string name="ethernet_gateway">Gateway</string>
+    <string name="ethernet_dns1">DNS</string>
+    <string name="ethernet_current_ip">Current IP</string>
+
+    <!-- dnd -->
+    <string name="title_dnd">DND</string>
+    <string name="dnd_start_time">זמן התחלה</string>
+    <string name="dnd_end_time">זמן סיום</string>
+
+    <!-- password -->
+    <string name="password_old">ישן</string>
+    <string name="password_new">חדש</string>
+    <string name="password_confirm">אשר</string>
+
+    <!-- reset -->
+    <string name="prompt_reset">האם תרצה לאפס להגדרות יצרן?</string>
+    <string name="btn_reset">אפס</string>
+
+    <!-- Room -->
+    <string name="room_building">בניין</string>
+    <string name="room_riser">אגף</string>
+    <string name="room_apart_no">מס. דירה</string>
+    <string name="room_device">מכשיר</string>
+    <string name="room_sync">סנכרון</string>
+    <string name="room_cms_ip">CMS IP</string>
+    <string name="room_pwd">סיסמא</string>
+
+    <!-- voip -->
+    <string name="voip_sip">SIP</string>
+    <string name="voip_pwd">סיסמא</string>
+    <string name="voip_display_name">הצג שם</string>
+    <string name="voip_register_name">שם הרשמה</string>
+    <string name="voip_user_name">שם משתמש</string>
+    <string name="voip_server_host">מארח שרת SIP</string>
+    <string name="voip_server_host_port">יציאת מארח של שרת SIP</string>
+    <string name="voip_outbound_proxy">פרוקסי יוצא</string>
+    <string name="voip_outbound_proxy_port">יציאת פרוקסי יוצאת</string>
+    <string name="voip_transport_protocol">פרוטוקול תחבורה</string>
+    <string name="voip_video_payload">מטען וידאו</string>
+    <!-- version -->
+    <string name="ver_firmware">Firmware</string>
+    <string name="ver_ip">IP</string>
+    <string name="ver_wifi_ip">WiFi IP</string>
+    <string name="ver_mac">MAC</string>
+
+    <string name="net_err">אנא בדוק את הרשת!</string>
+</resources>

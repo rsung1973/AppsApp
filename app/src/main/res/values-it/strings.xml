@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="app_name">Servizio</string>
+    <string name="main_btn_logger">SMS</string>
+    <string name="main_btn_apps">Browser</string>
+    <string name="main_btn_cook">COOK</string>
+    <string name="main_btn_mall">MALL</string>
+    <string name="main_btn_stock">GOV</string>
+    <string name="main_btn_map">MAPPA</string>
+    <string name="logger_text_no">NO.</string>
+    <string name="logger_text_data">Contenuto</string>
+    <string name="logger_text_ts">Data</string>
+    <string name="logger_view_title">Contenuto SMS</string>
+    <string name="logger_view_ok">OK</string>
+    <string name="logger_notify_title">"Messaggio di servizio ricevuto.</string>
+    <string name="brower_webtalk_query">Cerca dispositivo!</string>
+    <string name="brower_webtalk_call">Chiama dispositivo:</string>
+    <string name="brower_webtalk_err">Chiamata fallita!</string>
+    <string name="brower_loading">Caricamento…</string>
+    <string name="brower_err_title">Errore</string>
+    <string name="brower_err_prompt">Servizio non caricato!</string>
+    <string name="brower_err_ok">OK</string>
+    <!-- Setting -->
+    <string name="login_title">Sistema</string>
+    <string name="login_passwd_prompt">Password</string>
+    <string name="login_passwd_ok">OK</string>
+    <string name="login_passwd_cancel">Annulla</string>
+    <!-- Credentials -->
+    <string name="credentials_title">Credenziali</string>
+    <string name="credentials_old_pwd">Vecchia password</string>
+    <string name="credentials_new_pwd">Nuova password</string>
+    <string name="credentials_confirm_pwd">Conferma la nuova password</string>
+    <!-- Date -->
+    <string name="date_title">Data \u0026 ora</string>
+    <string name="date_automatic_date_time">Data e ora automatiche</string>
+    <string name="date_automatic_date_time_content">Usa il tempo fornito dalla rete</string>
+    <string name="date_automatic_time_zone">Fuso orario automatico</string>
+    <string name="date_automatic_time_zone_content">Usa il fuso orario fornito dalla rete</string>
+    <string name="date_set_date">Data</string>
+    <string name="date_set_time">Tempo</string>
+    <string name="date_select_time_zone">Fuso orario</string>
+    <string name="date_24_hour_format">12H/24H</string>
+    <string name="date_ntp_configuration">NTP</string>
+    <string name="date_24_hour_example">13:00</string>
+    <string name="date_12_hour_example">13:00</string>
+    <string name="date_ntp_config_automatic">Automatico</string>
+    <string name="date_ntp_config_manual">Manuale</string>
+    <string name="date_dialog_title_select_time_zone">Seleziona il fuso orario</string>
+    <string name="date_dialog_title_ntp_server_configuration">Configurazione server NTP</string>
+    <!-- Display -->
+    <string name="display_title">Schermo</string>
+    <string name="display_brightness_level">Livello di luminosità</string>
+    <string name="display_sleep">Sleep</string>
+    <string name="display_font_size">Dimensione del font</string>
+    <!-- Sound -->
+    <string name="sound_title">Suono</string>
+    <string name="sound_notification_title">Suono \u0026 notifica</string>
+    <string name="sound_ring_vol">Volume squillo</string>
+    <string name="sound_intercom_vol">Volume Interc.</string>
+    <string name="sound_phone_ringtone">Suoneria</string>
+    <string name="sound_dial_pad_tones">Toni della tastiera</string>
+    <string name="sound_touch_sounds">Suono tasti</string>
+    <string name="sound_screen_locking_sounds">Suoni di blocca schermo</string>
+    <string name="sound_auto_answer">Risposta automatica</string>
+    <string name="sound_button">Pulsante</string>
+    <!-- Ethernet -->
+    <string name="ethernet_title">Ethernet</string>
+    <string name="ethernet_ip_mode">Modalità rete IP</string>
+    <string name="ethernet_enabled">Rete abilitata</string>
+    <string name="ethernet_disabled">Rete disabilitata</string>
+    <!-- Language -->
+    <string name="language_title">Lingua</string>
+    <string name="language_input_title">Lingua \u0026 input</string>
+    <string name="language_input_content">Inglese (Regno Unito): Tastiera Android (AOSP)</string>
+    <!-- wifi -->
+    <string name="wifi_title">Wi-Fi</string>
+    <string name="wifi_add_network">Aggiungi rete</string>
+    <string name="wifi_network_ssid">SSID di rete</string>
+    <string name="wifi_security">Sicurezza</string>
+    <string name="wifi_password">Password</string>
+    <string name="wifi_show_password">Mostra password</string>
+    <string name="wifi_show_advanced_options">Mostra opzioni avanzate</string>
+    <string name="wifi_ip_settings">Impostazioni IP</string>
+    <string name="wifi_ip_address">IP</string>
+    <string name="wifi_gateway">Gateway</string>
+    <string name="wifi_network_prefix_len">Lunghezza del prefisso di rete</string>
+    <string name="wifi_dns1">DNS1</string>
+    <string name="wifi_dns2">DNS2</string>
+    <string name="wifi_ntp_server_1">Server NTP</string>
+    <string name="wifi_ntp_server_2">Server NTP 2</string>
+    <string name="wifi_status">Stato</string>
+    <string name="wifi_signal_strength">Potenza del segnale</string>
+    <string name="wifi_link_speed">Velocità di collegamento</string>
+    <string name="wifi_frequency">Frequenza</string>
+    <string name="wifi_security_none">Nessuno</string>
+    <string name="wifi_security_wep">WEP</string>
+    <string name="wifi_security_wpa">WPA PSK</string>
+    <string name="wifi_security_wpa2">WPA2 PSK</string>
+    <string name="wifi_security_wpa_wpa2">WPA/WPA2 PSK</string>
+    <string name="wifi_dialog_forget_config">Dimentica questa configurazione</string>
+    <string name="wifi_add_network_fail">Impossibile aggiungere una rete.  Questa rete non è disponibile.</string>
+    <!-- reset -->
+    <string name="master_clear_desc">Questa azione cancellerà tutti i dati su questo "<b>"Dispositivo di memoria"</b>", Compreso:\n\n"<li>"Dati dell'applicazione del produttore"</li></string>
+    <!-- dialog text -->
+    <string name="dialog_title_system">Sistema</string>
+    <string name="dialog_title_search">Finestra di ricerca</string>
+    <string name="dialog_title_delete">Elimina fin. dialogo</string>
+    <string name="dialog_msg_delete">Sei sicuro di voler eliminare questo contatto?  Questa azione non può essere annullata.</string>
+    <string name="dialog_msg_delete_multi">Sei sicuro di voler eliminare questi contatti?  Questa azione non può essere annullata.</string>
+    <string name="dialog_title_save">Salva finestra di dialogo</string>
+    <string name="dialog_msg_save">Sei sicuro di voler salvare questo contatto?</string>
+    <string name="dialog_title_first_set">Salva finestra di dialogo</string>
+    <string name="dialog_msg_first_set">Sei sicuro di inviare queste configurazioni?</string>
+    <string name="dialog_search">Ricerca</string>
+    <string name="dialog_confirm">Conferma</string>
+    <string name="dialog_send">Invia</string>
+    <string name="dialog_cancel">Annulla</string>
+    <string name="dialog_dtmf_input">Finestra di dialogo di immissione DTMF</string>
+    <string name="dialog_ok">OK</string>
+    <string name="dialog_alert">Allarme</string>
+    <!-- validate text -->
+    <string name="validate_password">login in corso, password obbligatoria</string>
+    <string name="validate_login">la password è presente, questo login è obbligatorio</string>
+    <string name="validate_password_valid">Inserisci una password valida, almeno 8 caratteri!</string>
+    <string name="validate_password_enter">Per favore inserire una password!</string>
+    <string name="validate_name_valid">Assicurati che il nome inserito non superi i 32 caratteri!</string>
+    <string name="validate_language_enter">Selezionare la lingua!</string>
+    <string name="validate_plant_name_enter">"Inserire il nome dell'impianto videocitofonico!"</string>
+    <string name="validate_device_name_enter">Inserisci il nome del dispositivo!</string>
+    <string name="none_txt">Nessuno</string>
+    <string name="networking_title">Rete:</string>
+    <string name="networking_dialog_connect">Collega</string>
+    <!-- tuya -->
+    <string name="talk_text_main">Porta</string>
+    <string name="talk_text_person">Piano</string>
+    <string name="talk_text_unit_person">Porta</string>
+    <string name="please_scan_qr">Scansiona il codice QR!</string>
+    <string name="hint_edit_name">Nome dispositivo</string>
+    <string name="devices_head_no">No.</string>
+    <string name="devices_head_id">ID</string>
+    <string name="devices_head_type">Tipo</string>
+    <string name="devices_head_name">Nome</string>
+    <string name="forward_app">"Inoltro della chiamata all'APP"</string>
+    <string name="notification">Notifica</string>
+    <string name="app_monitor">Visualizzazione da APP</string>
+    <string name="app">Visualizzazione da APP</string>
+    <string name="uuid_isEmpty">"Configurare prima l'UUID e Authkey sul Web"</string>
+    <string name="tuya_id">ID</string>
+    <string name="tuya_name">Nome</string>
+    <string name="tuya_type">Tipo</string>
+    <string name="get_qr_err">Generazione QR fallita!</string>
+    <string name="app_unbound">App non associata!</string>
+    <!-- Message -->
+    <string name="title_message">Messaggio</string>
+    <string name="btn_clear">Cancella</string>
+    <string name="title_incoming">In arrivo</string>
+    <string name="title_outgoing">Outgoing</string>
+    <string name="prompt_message_clear_all">Vuoi cancellare tutti i messaggi?</string>
+    <!-- Settings -->
+    <string name="title_settings">Setup</string>
+    <string name="menu_display">Schermo</string>
+    <string name="menu_sounds">Suoni</string>
+    <string name="menu_date">Data&amp;Ora</string>
+    <string name="menu_language">Lingua</string>
+    <string name="menu_devices">Dispositivi</string>
+    <string name="menu_mode">Modalità</string>
+    <string name="menu_version">Versione</string>
+    <string name="menu_more">Avanzate</string>
+    <string name="menu_eth">Ethernet</string>
+    <string name="menu_wifi">Wi-Fi</string>
+    <string name="menu_room">Stanza</string>
+    <string name="menu_sip">SIP</string>
+    <string name="menu_password">Password</string>
+    <string name="menu_apps">App</string>
+    <string name="menu_reset">Reset</string>
+    <!-- ethernet -->
+    <string name="networking_dhcp">DHCP</string>
+    <string name="networking_static">Statico</string>
+    <string name="ethernet_ip_address">IP</string>
+    <string name="ethernet_netmask">Subnetmask</string>
+    <string name="ethernet_gateway">Gateway</string>
+    <string name="ethernet_dns1">DNS</string>
+    <string name="ethernet_current_ip">IP attuale</string>
+    <!-- dnd -->
+    <string name="title_dnd">DND</string>
+    <string name="dnd_start_time">Ora di inizio</string>
+    <string name="dnd_end_time">Tempo di fine</string>
+    <!-- password -->
+    <string name="password_old">Vecchia</string>
+    <string name="password_new">Nuovo</string>
+    <string name="password_confirm">Conferma</string>
+    <!-- reset -->
+    <string name="prompt_reset">Vuoi ripristinare le impostazioni di fabbrica?</string>
+    <string name="btn_reset">RESET</string>
+    <!-- Room -->
+    <string name="room_building">Edificio</string>
+    <string name="room_riser">Riser</string>
+    <string name="room_apart_no">Appartamento n.</string>
+    <string name="room_device">Dispositivo</string>
+    <string name="room_sync">Sincronizza</string>
+    <string name="room_cms_ip">IP CMS</string>
+    <string name="room_pwd">Password</string>
+    <!-- voip -->
+    <string name="voip_sip">SIP</string>
+    <string name="voip_pwd">Password</string>
+    <string name="voip_display_name">Mostra nome</string>
+    <string name="voip_register_name">Registra nome</string>
+    <string name="voip_user_name">Nome utente</string>
+    <string name="voip_server_host">Host del server SIP</string>
+    <string name="voip_server_host_port">Porta host del server SIP</string>
+    <string name="voip_outbound_proxy">Outbound Proxy</string>
+    <string name="voip_outbound_proxy_port">Outbound Proxy Port</string>
+    <string name="voip_transport_protocol">Protocollo</string>
+    <string name="voip_video_payload">Flusso video</string>
+    <!-- version -->
+    <string name="ver_firmware">Firmware</string>
+    <string name="ver_ip">IP</string>
+    <string name="ver_wifi_ip">IP Wi-Fi</string>
+    <string name="ver_mac">MAC</string>
+    <string name="net_err">Controllare la rete!</string>
+</resources>

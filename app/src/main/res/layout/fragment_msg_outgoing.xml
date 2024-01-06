@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="20dp"
+    android:paddingTop="10dp"
+    android:paddingRight="20dp"
+    android:paddingBottom="32dp">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rv_msg_records"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/layout_bottom"
+        android:overScrollMode="never" />
+
+    <LinearLayout
+        android:id="@+id/layout_bottom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/btn_msg_add"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginRight="80dp"
+            android:src="@mipmap/ic_add" />
+
+        <ImageView
+            android:id="@+id/btn_msg_del"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginLeft="80dp"
+            android:src="@mipmap/ic_msg_del" />
+    </LinearLayout>
+</RelativeLayout>

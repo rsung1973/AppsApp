@@ -1,0 +1,262 @@
+<resources>
+
+    <string name="app_name">Service</string>
+    <string name="main_btn_logger">SMS</string>
+    <string name="main_btn_apps">BROWSER</string>
+    <string name="main_btn_cook">KOK</string>
+    <string name="main_btn_mall">MALL</string>
+    <string name="main_btn_stock">VOORRAAD</string>
+    <string name="main_btn_map">KAART</string>
+
+    <string name="logger_text_no">NO.</string>
+    <string name="logger_text_data">Inhoud</string>
+    <string name="logger_text_ts">Datum</string>
+
+    <string name="logger_view_title">"SMS Inhoud"</string>
+    <string name="logger_view_ok">"O K"</string>
+
+    <string name="logger_notify_title">""Service bericht ontvangen."</string>
+
+    <string name="brower_webtalk_query">"Apparaat zoeken!"</string>
+    <string name="brower_webtalk_call">"Apparaat bellen:"</string>
+    <string name="brower_webtalk_err">"Apparaat bellen mislukt!"</string>
+
+    <string name="brower_loading">"Laden..."</string>
+    <string name="brower_err_title">"ERROR"</string>
+    <string name="brower_err_prompt">"Service laden mislukt!"</string>
+    <string name="brower_err_ok">"O K"</string>
+
+    <!-- Apps MAIN -->
+    <!-- Setting -->
+    <string name="login_title">Systeem</string>
+    <string name="login_passwd_prompt">Wachtwoord</string>
+    <string name="login_passwd_ok">OK</string>
+    <string name="login_passwd_cancel">Annuleren</string>
+
+    <!-- Credentials -->
+    <string name="credentials_title">Gegevens</string>
+    <string name="credentials_old_pwd">Oude wachtwoord</string>
+    <string name="credentials_new_pwd">Nieuwe wachtwoord</string>
+    <string name="credentials_confirm_pwd">Bevestig nieuw wachtwoord</string>
+
+    <!-- Date -->
+    <string name="date_title">Datum \u0026 tijd</string>
+    <string name="date_automatic_date_time">Automatische datum \u0026 tijd</string>
+    <string name="date_automatic_date_time_content">Gebruik netwerktijd</string>
+    <string name="date_automatic_time_zone">Automatische tijdszone</string>
+    <string name="date_automatic_time_zone_content">UGebruik netwerk tijdszone</string>
+    <string name="date_set_date">Datum</string>
+    <string name="date_set_time">Tijd</string>
+    <string name="date_select_time_zone">Tijdszone</string>
+    <string name="date_24_hour_format">12U/24U</string>
+    <string name="date_ntp_configuration">NTP</string>
+
+    <string name="date_24_hour_example">13:00</string>
+    <string name="date_12_hour_example">1:00 PM</string>
+    <string name="date_ntp_config_automatic">Automatisch</string>
+    <string name="date_ntp_config_manual">Handmatig</string>
+    <string name="date_dialog_title_select_time_zone">Selecteer tijdszone</string>
+    <string name="date_dialog_title_ntp_server_configuration">NTP server configuratie</string>
+
+    <!-- Display -->
+    <string name="display_title">Weergave</string>
+    <string name="display_brightness_level">Helderheidsniveau</string>
+    <string name="display_sleep">Slaapmodus</string>
+    <string name="display_font_size">Lettergrootte</string>
+
+    <!-- Sound -->
+    <string name="sound_title">Geluid</string>
+    <string name="sound_notification_title">Geluid \u0026 notificatie</string>
+    <string name="sound_ring_vol">Oproep Vol.</string>
+    <string name="sound_intercom_vol">Intercom Vol.</string>
+    <string name="sound_phone_ringtone">Beltoon</string>
+    <string name="sound_dial_pad_tones">Kies tonen</string>
+    <string name="sound_touch_sounds">Touch geluiden</string>
+    <string name="sound_screen_locking_sounds">Scherm vergrendeling geluiden</string>
+
+    <string name="sound_auto_answer">Auto beantwoorden</string>
+    <string name="sound_button">Knop</string>
+
+    <!-- Ethernet -->
+    <string name="ethernet_title">Ethernet</string>
+    <string name="ethernet_ip_mode">Ethernet IP Modus</string>
+
+    <string name="ethernet_enabled">Ethernet is ingeschakeld</string>
+    <string name="ethernet_disabled">Ethernet is uitgeschakeld</string>
+
+    <!-- Language -->
+    <string name="language_title">Taal</string>
+    <string name="language_input_title">Taal \u0026 invoer</string>
+    <string name="language_input_content">Engels(UK):Android Toetsenbord(AOSP)</string>
+
+    <!-- wifi -->
+    <string name="wifi_title">Wi-Fi</string>
+    <string name="wifi_add_network">Netwerk toevoegen</string>
+
+    <string name="wifi_network_ssid">Netwerk SSID</string>
+    <string name="wifi_security">Beveiliging</string>
+    <string name="wifi_password">Wachtwoord</string>
+    <string name="wifi_show_password">Toon wachtwoord</string>
+    <string name="wifi_show_advanced_options">Geavanceerde opties weergeven</string>
+    <string name="wifi_ip_settings">IP instellingen</string>
+    <string name="wifi_ip_address">IP adres</string>
+    <string name="wifi_gateway">Gateway</string>
+    <string name="wifi_network_prefix_len">Netwerk prefix lengte</string>
+    <string name="wifi_dns1">DNS1</string>
+    <string name="wifi_dns2">DNS2</string>
+
+    <string name="wifi_ntp_server_1">NTP Server</string>
+    <string name="wifi_ntp_server_2">  NTP Server 2</string>
+
+    <string name="wifi_status">Status</string>
+    <string name="wifi_signal_strength">Signaal sterkte</string>
+    <string name="wifi_link_speed">Verbindingssnelheid</string>
+    <string name="wifi_frequency">Frequentie</string>
+
+    <string name="wifi_security_none">Geen</string>
+    <string name="wifi_security_wep">WEP</string>
+    <string name="wifi_security_wpa">WPA PSK</string>
+    <string name="wifi_security_wpa2">WPA2 PSK</string>
+    <string name="wifi_security_wpa_wpa2">WPA/WPA2 PSK</string>
+
+    <string name="wifi_dialog_forget_config">Configuratie vergeten</string>
+    <string name="wifi_add_network_fail">Netwerk toevoegen mislukt. Netwerk niet beschikbaar.</string>
+
+    <!-- reset -->
+    <string name="master_clear_desc">"Deze actie wist alle gegevens op deze  "<b>"Geheugenkaart"</b>", inclusief:\n\n"<li>"DNAKE applicatie data"</li></string>
+
+    <!-- dialog text -->
+    <string name="dialog_title_system">Systeem</string>
+    <string name="dialog_title_search">Zoekvenster</string>
+    <string name="dialog_title_delete">Wis venster</string>
+    <string name="dialog_msg_delete">Wil je dit contact wilt verwijderen? Het kan niet ongedaan worden gemaakt.</string>
+    <string name="dialog_msg_delete_multi">Wil je deze contacten wilt verwijderen? Het kan niet ongedaan worden gemaakt.</string>
+    <string name="dialog_title_save">Venster opslaan</string>
+    <string name="dialog_msg_save">Wil je dit contact opslaan?</string>
+    <string name="dialog_title_first_set">Dialoog opslaan</string>
+    <string name="dialog_msg_first_set">Wil je deze configuratie doorvoeren?</string>
+    <string name="dialog_search">Zoeken</string>
+    <string name="dialog_confirm">Bevestigen</string>
+    <string name="dialog_send">Versturen</string>
+    <string name="dialog_cancel">Annuleren</string>
+    <string name="dialog_dtmf_input">"DTMF invoerveld"</string>
+    <string name="dialog_ok">OK</string>
+    <string name="dialog_alert">Waarschuwing</string>
+
+    <!-- validate text -->
+    <string name="validate_password">Login aanwezig, dit wachtwoord is verplicht!</string>
+    <string name="validate_login">Wachtwoord aanwezig, de loginnaam is verplicht!</string>
+    <string name="validate_password_valid">Voer een geldig wachtwoord in, minstens 8 tekens!</string>
+    <string name="validate_password_enter">Voer een wachtwoord in!</string>
+    <string name="validate_name_valid">Zorg ervoor dat de ingevoerde naam niet langer is dan 32 tekens!</string>
+    <string name="validate_language_enter">Selecteer een taal!</string>
+    <string name="validate_plant_name_enter">Geef de video deur centrale naam!</string>
+    <string name="validate_device_name_enter">Geef apparaatnaam in!</string>
+
+    <string name="none_txt">Geen</string>
+    <string name="networking_title">Verbinden:</string>
+    <string name="networking_dialog_connect">Verbind</string>
+
+    <!-- tuya -->
+    <string name="talk_text_main">Deur</string>
+    <string name="talk_text_person">Villa</string>
+    <string name="talk_text_unit_person">Deur</string>
+
+    <string name="please_scan_qr">Scan de QR code!</string>
+    <string name="hint_edit_name">Apparaatnaam</string>
+
+    <string name="devices_head_no">Nr.</string>
+    <string name="devices_head_id">ID</string>
+    <string name="devices_head_type">Type</string>
+    <string name="devices_head_name">Naam</string>
+
+    <string name="forward_app">Oproepen doorsturen naar app</string>
+    <string name="notification">Notificatie</string>
+    <string name="app_monitor">APP Monitoring</string>
+    <string name="app">APP Monitor</string>
+    <string name="uuid_isEmpty">Configureer eerst UUID en Authkey via webinterface</string>
+    <string name="tuya_id">ID</string>
+    <string name="tuya_name">Naam</string>
+    <string name="tuya_type">Type</string>
+    <string name="get_qr_err">QR code opvragen mislukt!</string>
+    <string name="app_unbound">App Ontkoppeld!</string>
+    <!-- Message -->
+    <string name="title_message">Bericht</string>
+    <string name="btn_clear">Wissen</string>
+    <string name="title_incoming">Inkomend</string>
+    <string name="title_outgoing">Uitgaand</string>
+
+    <string name="prompt_message_clear_all">Alle berichten wissen?</string>
+
+    <!-- Settings -->
+    <string name="title_settings">Instellingen</string>
+
+    <string name="menu_display">Weergave</string>
+    <string name="menu_sounds">Geluiden</string>
+    <string name="menu_date">Datum &amp; Tijd</string>
+    <string name="menu_language">Taal</string>
+    <string name="menu_devices">Apparaten</string>
+    <string name="menu_mode">Modus</string>
+    <string name="menu_version">Versie</string>
+    <string name="menu_more">Meer</string>
+    <string name="menu_eth">Ethernet</string>
+    <string name="menu_wifi">Wi-Fi</string>
+    <string name="menu_room">Kamer</string>
+    <string name="menu_sip">SIP</string>
+    <string name="menu_password">Wachtwoord</string>
+    <string name="menu_apps">Apps</string>
+    <string name="menu_reset">Reset</string>
+
+    <!-- ethernet -->
+    <string name="networking_dhcp">DHCP</string>
+    <string name="networking_static">Statisch</string>
+
+    <string name="ethernet_ip_address">IP</string>
+    <string name="ethernet_netmask">Netmasker</string>
+    <string name="ethernet_gateway">Gateway</string>
+    <string name="ethernet_dns1">DNS</string>
+    <string name="ethernet_current_ip">Huidige IP</string>
+
+    <!-- dnd -->
+    <string name="title_dnd">DND</string>
+    <string name="dnd_start_time">Starttijd</string>
+    <string name="dnd_end_time">Eindtijd</string>
+
+    <!-- password -->
+    <string name="password_old">Oud</string>
+    <string name="password_new">Nieuw</string>
+    <string name="password_confirm">Bevestig</string>
+
+    <!-- reset -->
+    <string name="prompt_reset">Resetten naar fabriekswaarden?</string>
+    <string name="btn_reset">RESET</string>
+
+    <!-- Room -->
+    <string name="room_building">Gebouw</string>
+    <string name="room_riser">Etage</string>
+    <string name="room_apart_no">Appartement Nr.</string>
+    <string name="room_device">Apparaat</string>
+    <string name="room_sync">Sync</string>
+    <string name="room_cms_ip">CMS IP</string>
+    <string name="room_pwd">Wachtwoord</string>
+
+    <!-- voip -->
+    <string name="voip_sip">SIP</string>
+    <string name="voip_pwd">Wachtwoord</string>
+    <string name="voip_display_name">Weergavenaam</string>
+    <string name="voip_register_name">Naam registreren</string>
+    <string name="voip_user_name">gebruikersnaam</string>
+    <string name="voip_server_host">SIP-serverhost</string>
+    <string name="voip_server_host_port">SIP Server Host Poort</string>
+    <string name="voip_outbound_proxy">Uitgaande proxy</string>
+    <string name="voip_outbound_proxy_port">Uitgaande proxypoort</string>
+    <string name="voip_transport_protocol">Transportprotocol</string>
+    <string name="voip_video_payload">Video-payload</string>
+    <!-- version -->
+    <string name="ver_firmware">Firmware</string>
+    <string name="ver_ip">IP</string>
+    <string name="ver_wifi_ip">WiFi IP</string>
+    <string name="ver_mac">MAC</string>
+
+    <string name="net_err">Controleer het netwerk!</string>
+</resources>

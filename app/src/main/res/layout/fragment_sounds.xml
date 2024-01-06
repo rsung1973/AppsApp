@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/shape_layout_24"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:orientation="vertical"
+            android:paddingLeft="24dp"
+            android:paddingTop="20dp"
+            android:paddingRight="12dp"
+            android:paddingBottom="20dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/sound_ring_vol"
+                android:textColor="@color/white"
+                android:textSize="20sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/iv_ring_vol"
+                    android:layout_width="32dp"
+                    android:layout_height="32dp" />
+
+                <SeekBar
+                    android:id="@+id/seekbar_ring_vol"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_marginRight="20dp"
+                    android:progressDrawable="@drawable/seek_bar_bg"
+                    android:thumb="@drawable/seekbar_thumb"
+                    android:thumbOffset="8dp" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:background="@color/white" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:orientation="vertical"
+            android:paddingLeft="24dp"
+            android:paddingTop="20dp"
+            android:paddingRight="12dp"
+            android:paddingBottom="20dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/sound_intercom_vol"
+                android:textColor="@color/white"
+                android:textSize="20sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/iv_intercom_vol"
+                    android:layout_width="32dp"
+                    android:layout_height="32dp" />
+
+                <SeekBar
+                    android:id="@+id/seekbar_intercom_vol"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_marginRight="20dp"
+                    android:progressDrawable="@drawable/seek_bar_bg"
+                    android:thumb="@drawable/seekbar_thumb"
+                    android:thumbOffset="8dp" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:background="@color/white" />
+
+        <com.dnake.widget.SettingsItemLayout
+            android:id="@+id/layout_sound_ringtone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:content_text_visible="true"
+            app:switch_btn_visible="false"
+            app:title_text="@string/sound_phone_ringtone" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:background="@color/white" />
+
+        <com.dnake.widget.SettingsItemLayout
+            android:id="@+id/layout_btn_press_vol"
+            android:layout_width="match_parent"
+            android:layout_height="72dp"
+            app:arrow_visible="false"
+            app:content_text_visible="true"
+            app:switch_btn_visible="true"
+            app:title_text="@string/sound_button" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:background="@color/white" />
+
+        <com.dnake.widget.SettingsItemLayout
+            android:id="@+id/layout_auto_answer"
+            android:layout_width="match_parent"
+            android:layout_height="72dp"
+            app:arrow_visible="false"
+            app:content_text_visible="true"
+            app:switch_btn_visible="true"
+            app:title_text="@string/sound_auto_answer" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:background="@color/white"
+            android:visibility="gone" />
+
+        <com.dnake.widget.SettingsItemLayout
+            android:id="@+id/layout_camera"
+            android:layout_width="match_parent"
+            android:layout_height="72dp"
+            android:visibility="gone"
+            app:arrow_visible="false"
+            app:content_text_visible="true"
+            app:switch_btn_visible="true"
+            app:title_text="@string/intercom_camera" />
+    </LinearLayout>
+</ScrollView>

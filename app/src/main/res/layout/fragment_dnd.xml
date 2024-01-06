@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/shape_layout_24"
+        android:orientation="vertical">
+
+        <com.dnake.widget.SettingsItemLayout
+            android:id="@+id/layout_whole_day"
+            android:layout_width="match_parent"
+            android:layout_height="72dp"
+            android:entries="@array/entries_font_size"
+            android:entryValues="@array/entryvalues_font_size"
+            app:arrow_visible="false"
+            app:content_text_visible="true"
+            app:switch_btn_visible="true"
+            app:title_text="Whole Day" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:background="@color/white" />
+
+        <com.dnake.widget.SettingsItemLayout
+            android:id="@+id/layout_time_duration"
+            android:layout_width="match_parent"
+            android:layout_height="72dp"
+            android:entries="@array/entries_font_size"
+            android:entryValues="@array/entryvalues_font_size"
+            app:arrow_visible="false"
+            app:content_text_visible="true"
+            app:switch_btn_visible="true"
+            app:title_text="Time Duration" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:background="@color/white" />
+
+        <com.dnake.widget.SettingsItemLayout
+            android:id="@+id/layout_start_time"
+            android:layout_width="match_parent"
+            android:layout_height="72dp"
+            android:entries="@array/screen_timeout_entries"
+            android:entryValues="@array/screen_timeout_values"
+            app:content_text_visible="true"
+            app:switch_btn_visible="false"
+            app:title_text="@string/display_sleep" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:background="@color/white" />
+
+        <com.dnake.widget.SettingsItemLayout
+            android:id="@+id/layout_end_time"
+            android:layout_width="match_parent"
+            android:layout_height="72dp"
+            android:entries="@array/screen_timeout_entries"
+            android:entryValues="@array/screen_timeout_values"
+            app:content_text_visible="true"
+            app:switch_btn_visible="false"
+            app:title_text="@string/display_sleep" />
+    </LinearLayout>
+</ScrollView>

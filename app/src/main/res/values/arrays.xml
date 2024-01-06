@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="entries_sip_protocol" translatable="false">
+        <item>UDP</item>
+        <item>TCP</item>
+        <item>TLS</item>
+    </string-array>
+    <string-array name="entryvalues_sip_protocol" translatable="false">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="screen_timeout_entries">
+        <item>15 seconds</item>
+        <item>30 seconds</item>
+        <item>1 minute</item>
+        <item>2 minutes</item>
+        <item>5 minutes</item>
+        <item>10 minutes</item>
+        <item>30 minutes</item>
+    </string-array>
+    <!-- Do not translate. -->
+    <string-array name="screen_timeout_values" translatable="false">
+        <!-- Do not translate. -->
+        <item>15000</item>
+        <!-- Do not translate. -->
+        <item>30000</item>
+        <!-- Do not translate. -->
+        <item>60000</item>
+        <!-- Do not translate. -->
+        <item>120000</item>
+        <!-- Do not translate. -->
+        <item>300000</item>
+        <!-- Do not translate. -->
+        <item>600000</item>
+        <!-- Do not translate. -->
+        <item>1800000</item>
+    </string-array>
+
+    <string-array name="entries_font_size">
+        <item msgid="6490061470416867723">Small</item>
+        <item msgid="3579015730662088893">Normal</item>
+        <item msgid="1678068858001018666">Large</item>
+        <item msgid="490158884605093126">Huge</item>
+    </string-array>
+
+    <string-array name="entryvalues_font_size" translatable="false">
+        <item>0.85</item>
+        <item>1.0</item>
+        <item>1.15</item>
+        <item>1.30</item>
+    </string-array>
+
+    <string-array name="entries_language" translatable="false">
+        <item>English</item>
+        <item>Nederlands(Netherland)</item>
+        <item>Deutsch(Deutschland)</item>
+        <item>עברית</item>
+        <item>Türkçe</item>
+        <item>Français(France)</item>
+        <item>Русский</item>
+        <item>Español(España)</item>
+        <item>Polski</item>
+        <item>Tiếng Việt</item>
+        <item>عربي</item>
+        <item>Português</item>
+        <item>Slovenský</item>
+        <item>Italiano</item>
+        <item>中文(简体)</item>
+        <item>中文(繁體)</item>
+    </string-array>
+
+    <string-array name="entryvalues_language" translatable="false">
+        <item>en_US</item>
+        <item>nl_NL</item>
+        <item>de_DE</item>
+        <item>iw_IL</item>
+        <item>tr_TR</item>
+        <item>fr_FR</item>
+        <item>ru_RU</item>
+        <item>es_ES</item>
+        <item>pl_PL</item>
+        <item>vi_VN</item>
+        <item>ar_AE</item>
+        <item>pt_PT</item>
+        <item>sk_SK</item>
+        <item>it_IT</item>
+        <item>zh_CN</item>
+        <item>zh_TW</item>
+    </string-array>
+
+    <string-array name="entries_ip_mode" translatable="false">
+        <item>static</item>
+        <item>dhcp</item>
+    </string-array>
+
+    <string-array name="entryvalues_ip_mode" translatable="false">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+
+    <string-array name="entries_wifi_safety" translatable="false">
+        <item>None</item>
+        <item>WEP</item>
+        <item>WPA/WPA2 PSK</item>
+    </string-array>
+</resources>

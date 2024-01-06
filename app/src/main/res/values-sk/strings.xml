@@ -1,0 +1,227 @@
+<resources>
+
+    <string name="app_name">Služba</string>
+    <string name="main_btn_logger">SMS</string>
+    <string name="main_btn_apps">PREHLIADAČ</string>
+    <string name="main_btn_cook">VARIŤ</string>
+    <string name="main_btn_mall">MALL</string>
+    <string name="main_btn_stock">GOV</string>
+    <string name="main_btn_map">MAPA</string>
+
+    <string name="logger_text_no">No.</string>
+    <string name="logger_text_data">Obsah</string>
+    <string name="logger_text_ts">Dátum</string>
+
+    <string name="logger_view_title">"Obsah SMS"</string>
+    <string name="logger_view_ok">"O K"</string>
+
+    <string name="logger_notify_title">""Prijatá servisná správa."</string>
+
+    <string name="brower_webtalk_query">"Dotazovanie zariadenia!"</string>
+    <string name="brower_webtalk_call">"Volajúce zariadenie:"</string>
+    <string name="brower_webtalk_err">"Volanie zariadenia zlyhalo!"</string>
+
+    <string name="brower_loading">"Nakladanie..."</string>
+    <string name="brower_err_title">"CHYBA"</string>
+    <string name="brower_err_prompt">"Služba sa nepodarilo načítať!"</string>
+    <string name="brower_err_ok">"O K"</string>
+
+    <!-- Setting -->
+    <string name="login_title">systém</string>
+    <string name="login_passwd_prompt">heslo</string>
+    <string name="login_passwd_ok">OK</string>
+    <string name="login_passwd_cancel">Zrušiť</string>
+    <!-- Credentials -->
+    <string name="credentials_title">poverenia</string>
+    <string name="credentials_old_pwd">Staré heslo</string>
+    <string name="credentials_new_pwd">Nové heslo</string>
+    <string name="credentials_confirm_pwd">Potvrďte nové heslo</string>
+    <!-- Date -->
+    <string name="date_title">Dátum \u0026 čas</string>
+    <string name="date_automatic_date_time">Automatický dátum a čas</string>
+    <string name="date_automatic_date_time_content">Použite čas poskytovaný sieťou</string>
+    <string name="date_automatic_time_zone">Automatické časové pásmo</string>
+    <string name="date_automatic_time_zone_content">Použite časové pásmo poskytované sieťou</string>
+    <string name="date_set_date">Dátum</string>
+    <string name="date_set_time">čas</string>
+    <string name="date_select_time_zone">Časové pásmo</string>
+    <string name="date_24_hour_format">12H/24H</string>
+    <string name="date_ntp_configuration">NTP</string>
+    <string name="date_24_hour_example">13:00</string>
+    <string name="date_12_hour_example">13:00</string>
+    <string name="date_ntp_config_automatic">Automaticky</string>
+    <string name="date_ntp_config_manual">Manuálny</string>
+    <string name="date_dialog_title_select_time_zone">Vyberte časové pásmo</string>
+    <string name="date_dialog_title_ntp_server_configuration">Konfigurácia servera NTP</string>
+    <!-- Display -->
+    <string name="display_title">Displej</string>
+    <string name="display_brightness_level">Úroveň jasu</string>
+    <string name="display_sleep">Spánok</string>
+    <string name="display_font_size">Veľkosť písma</string>
+    <!-- Sound -->
+    <string name="sound_title">Zvuk</string>
+    <string name="sound_notification_title">Zvukové \u0026 upozornenie</string>
+    <string name="sound_ring_vol">Ring Vol.</string>
+    <string name="sound_intercom_vol">Intercom Vol.</string>
+    <string name="sound_phone_ringtone">Vyzváňací tón</string>
+    <string name="sound_dial_pad_tones">Tóny číselníka</string>
+    <string name="sound_touch_sounds">Zvuky dotyku</string>
+    <string name="sound_screen_locking_sounds">Zvuky uzamknutia obrazovky</string>
+    <string name="sound_auto_answer">Automatická odpoveď</string>
+    <string name="sound_button">Tlačidlo</string>
+    <!-- Ethernet -->
+    <string name="ethernet_title">Ethernet</string>
+    <string name="ethernet_ip_mode">Ethernet IP režim</string>
+    <string name="ethernet_enabled">Ethernet je povolený</string>
+    <string name="ethernet_disabled">Ethernet je vypnutý</string>
+    <!-- Language -->
+    <string name="language_title">Jazyk</string>
+    <string name="language_input_title">Jazyk \u0026 vstup</string>
+    <string name="language_input_content">Angličtina (Spojené kráľovstvo): Klávesnica Android (AOSP)</string>
+    <!-- wifi -->
+    <string name="wifi_title">Wi-Fi</string>
+    <string name="wifi_add_network">Pridať sieť</string>
+    <string name="wifi_network_ssid">SSID siete</string>
+    <string name="wifi_security">Bezpečnosť</string>
+    <string name="wifi_password">heslo</string>
+    <string name="wifi_show_password">Ukázať heslo</string>
+    <string name="wifi_show_advanced_options">Zobraziť rozšírené možnosti</string>
+    <string name="wifi_ip_settings">nastavenia IP</string>
+    <string name="wifi_ip_address">IP adresa</string>
+    <string name="wifi_gateway">Brána</string>
+    <string name="wifi_network_prefix_len">Dĺžka sieťovej predpony</string>
+    <string name="wifi_dns1">DNS1</string>
+    <string name="wifi_dns2">DNS2</string>
+    <string name="wifi_ntp_server_1">Server NTP</string>
+    <string name="wifi_ntp_server_2">NTP server 2</string>
+    <string name="wifi_status">Postavenie</string>
+    <string name="wifi_signal_strength">Sila signálu</string>
+    <string name="wifi_link_speed">Rýchlosť prepojenia</string>
+    <string name="wifi_frequency">Frekvencia</string>
+    <string name="wifi_security_none">žiadne</string>
+    <string name="wifi_security_wep">WEP</string>
+    <string name="wifi_security_wpa">WPA PSK</string>
+    <string name="wifi_security_wpa2">WPA2 PSK</string>
+    <string name="wifi_security_wpa_wpa2">WPA/WPA2 PSK</string>
+    <string name="wifi_dialog_forget_config">Zabudnite na túto konfiguráciu</string>
+    <string name="wifi_add_network_fail">Nepodarilo sa pridať sieť.  Táto sieť je nedostupná.</string>
+    <!-- reset -->
+    <string name="master_clear_desc">"Questa azione cancellerà tutti i dati su questo "<b>"Dispositivo di memoria"</b>", Compreso:\n\n"<li>"Dati dell'applicazione Dnake"</li></string>
+    <!-- dialog text -->
+    <string name="dialog_title_system">systém</string>
+    <string name="dialog_title_search">Dialógové okno vyhľadávania</string>
+    <string name="dialog_title_delete">Odstrániť dialógové okno</string>
+    <string name="dialog_msg_delete">Naozaj chcete odstrániť tento kontakt?  Túto akciu nie je možné vrátiť späť.</string>
+    <string name="dialog_msg_delete_multi">Naozaj chcete odstrániť tieto kontakty?  Túto akciu nie je možné vrátiť späť.</string>
+    <string name="dialog_title_save">Dialógové okno Uložiť</string>
+    <string name="dialog_msg_save">Naozaj chcete tento kontakt uložiť?</string>
+    <string name="dialog_title_first_set">Dialógové okno Uložiť</string>
+    <string name="dialog_msg_first_set">Naozaj odošlete tieto konfigurácie?</string>
+    <string name="dialog_search">Vyhľadávanie</string>
+    <string name="dialog_confirm">Potvrďte</string>
+    <string name="dialog_send">Odoslať</string>
+    <string name="dialog_cancel">Zrušiť</string>
+    <string name="dialog_dtmf_input">"Dialógové okno vstupu DTMF"</string>
+    <string name="dialog_ok">OK</string>
+    <string name="dialog_alert">Upozornenie</string>
+    <!-- validate text -->
+    <string name="validate_password">prihlasovacie meno je prítomné, toto heslo je povinné</string>
+    <string name="validate_login">heslo je prítomné, toto prihlásenie je povinné</string>
+    <string name="validate_password_valid">Zadajte platné heslo, minimálne 8 znakov!</string>
+    <string name="validate_password_enter">Zadajte heslo!</string>
+    <string name="validate_name_valid">Uistite sa, že zadané meno nie je dlhšie ako 32 znakov!</string>
+    <string name="validate_language_enter">Vyberte jazyk!</string>
+    <string name="validate_plant_name_enter">Zadajte názov závodu s videodvierkami!</string>
+    <string name="validate_device_name_enter">Zadajte názov zariadenia!</string>
+    <string name="none_txt">žiadne</string>
+    <string name="networking_title">Sieť:</string>
+    <string name="networking_dialog_connect">Pripojte sa</string>
+    <!-- tuya -->
+    <string name="talk_text_main">Dvere</string>
+    <string name="talk_text_person">Plochý</string>
+    <string name="talk_text_unit_person">Dvere</string>
+    <string name="please_scan_qr">Naskenujte QR kód!</string>
+    <string name="hint_edit_name">Názov zariadenia</string>
+    <string name="devices_head_no">No.</string>
+    <string name="devices_head_id">ID</string>
+    <string name="devices_head_type">Typ</string>
+    <string name="devices_head_name">Názov</string>
+    <string name="forward_app">Presmerovanie hovoru do APP</string>
+    <string name="notification">Oznámenie</string>
+    <string name="app_monitor">Monitorovanie APP</string>
+    <string name="app">Monitor APP</string>
+    <string name="uuid_isEmpty">Najprv nakonfigurujte UUID a Authkey na webe</string>
+    <string name="tuya_id">ID</string>
+    <string name="tuya_name">Názov</string>
+    <string name="tuya_type">Typ</string>
+    <string name="get_qr_err">Nepodarilo sa získať QR kód!</string>
+    <string name="app_unbound">Aplikácia je neviazaná!</string>
+    <!-- Message -->
+    <string name="title_message">Správa</string>
+    <string name="btn_clear">jasný</string>
+    <string name="title_incoming">Prichádzajúce</string>
+    <string name="title_outgoing">Vychádzajúce</string>
+    <string name="prompt_message_clear_all">Chcete vymazať všetky správy?</string>
+    <!-- Settings -->
+    <string name="title_settings">nastavenie</string>
+    <string name="menu_display">Displej</string>
+    <string name="menu_sounds">Zvuky</string>
+    <string name="menu_date">Dátum Čas</string>
+    <string name="menu_language">Jazyk</string>
+    <string name="menu_devices">Zariadenia</string>
+    <string name="menu_mode">Režim</string>
+    <string name="menu_version">Verzia</string>
+    <string name="menu_more">Viac</string>
+    <string name="menu_eth">Ethernet</string>
+    <string name="menu_wifi">Wi-Fi</string>
+    <string name="menu_room">Izba</string>
+    <string name="menu_sip">SIP</string>
+    <string name="menu_password">heslo</string>
+    <string name="menu_apps">aplikácie</string>
+    <string name="menu_reset">Resetovať</string>
+    <!-- ethernet -->
+    <string name="networking_dhcp">DHCP</string>
+    <string name="networking_static">Statické</string>
+    <string name="ethernet_ip_address">IP</string>
+    <string name="ethernet_netmask">Maska</string>
+    <string name="ethernet_gateway">Brána</string>
+    <string name="ethernet_dns1">DNS</string>
+    <string name="ethernet_current_ip">Aktuálna IP</string>
+    <!-- dnd -->
+    <string name="title_dnd">DND</string>
+    <string name="dnd_start_time">Doba spustenia</string>
+    <string name="dnd_end_time">Čas ukončenia</string>
+    <!-- password -->
+    <string name="password_old">Starý</string>
+    <string name="password_new">Nový</string>
+    <string name="password_confirm">Potvrďte</string>
+    <!-- reset -->
+    <string name="prompt_reset">Chcete obnoviť továrenské nastavenia?</string>
+    <string name="btn_reset">RES</string>
+    <!-- Room -->
+    <string name="room_building">Budovanie</string>
+    <string name="room_riser">Stúpačka</string>
+    <string name="room_apart_no">Apartmán č.</string>
+    <string name="room_device">Zariadenie</string>
+    <string name="room_sync">Synchronizovať</string>
+    <string name="room_cms_ip">IP CMS</string>
+    <string name="room_pwd">heslo</string>
+    <!-- voip -->
+    <string name="voip_sip">SIP</string>
+    <string name="voip_pwd">heslo</string>
+    <string name="voip_display_name">Zobraziť meno</string>
+    <string name="voip_register_name">Registrovať meno</string>
+    <string name="voip_user_name">Používateľské meno</string>
+    <string name="voip_server_host">Hostiteľ servera SIP</string>
+    <string name="voip_server_host_port">Hostiteľský port servera SIP</string>
+    <string name="voip_outbound_proxy">Outbound Proxy</string>
+    <string name="voip_outbound_proxy_port">Výstupný port proxy</string>
+    <string name="voip_transport_protocol">Prepravný protokol</string>
+    <string name="voip_video_payload">Užitočné zaťaženie videa</string>
+    <!-- version -->
+    <string name="ver_firmware">Firmvér</string>
+    <string name="ver_ip">IP</string>
+    <string name="ver_wifi_ip">IP WiFi</string>
+    <string name="ver_mac">MAC</string>
+    <string name="net_err">Skontrolujte sieť!</string>
+</resources>

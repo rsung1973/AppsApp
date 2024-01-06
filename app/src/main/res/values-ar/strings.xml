@@ -1,0 +1,227 @@
+<resources>
+
+    <string name="app_name">خدمة</string>
+    <string name="main_btn_logger">الرسائل القصيرة</string>
+    <string name="main_btn_apps">متصفح</string>
+    <string name="main_btn_cook">يطبخ</string>
+    <string name="main_btn_mall">مجمع تجاري</string>
+    <string name="main_btn_stock">حكومة</string>
+    <string name="main_btn_map">خريطة</string>
+
+    <string name="logger_text_no">لا.</string>
+    <string name="logger_text_data">المحتوى</string>
+    <string name="logger_text_ts">تاريخ</string>
+
+    <string name="logger_view_title">"محتوى الرسائل القصيرة"</string>
+    <string name="logger_view_ok">"حسنا"</string>
+
+    <string name="logger_notify_title">""تم استلام رسالة الخدمة."</string>
+
+    <string name="brower_webtalk_query">"جهاز الاستعلام!"</string>
+    <string name="brower_webtalk_call">"جهاز الاتصال:"</string>
+    <string name="brower_webtalk_err">"فشل الاتصال بالجهاز!"</string>
+
+    <string name="brower_loading">"تحميل..."</string>
+    <string name="brower_err_title">"خطأ"</string>
+    <string name="brower_err_prompt">"فشل تحميل الخدمة!"</string>
+    <string name="brower_err_ok">"حسنا"</string>
+
+    <!-- Setting -->
+    <string name="login_title">نظام</string>
+    <string name="login_passwd_prompt">كلمه السر</string>
+    <string name="login_passwd_ok">نعم</string>
+    <string name="login_passwd_cancel">يلغي</string>
+    <!-- Credentials -->
+    <string name="credentials_title">شهاداته</string>
+    <string name="credentials_old_pwd">كلمة سر قديمة</string>
+    <string name="credentials_new_pwd">كلمة المرور الجديدة</string>
+    <string name="credentials_confirm_pwd">تأكيد كلمة المرور الجديدة</string>
+    <!-- Date -->
+    <string name="date_title">التاريخ  u0026\ الوقت</string>
+    <string name="date_automatic_date_time">التاريخ التلقائي  u0026\ الوقت</string>
+    <string name="date_automatic_date_time_content">استخدم الوقت الذي توفره الشبكة</string>
+    <string name="date_automatic_time_zone">منطقة زمنية تلقائية</string>
+    <string name="date_automatic_time_zone_content">استخدم المنطقة الزمنية التي توفرها الشبكة</string>
+    <string name="date_set_date">تاريخ</string>
+    <string name="date_set_time">وقت</string>
+    <string name="date_select_time_zone">وحدة زمنية</string>
+    <string name="date_24_hour_format">12 ساعة/24 ساعة</string>
+    <string name="date_ntp_configuration">NTP</string>
+    <string name="date_24_hour_example">13:00</string>
+    <string name="date_12_hour_example">1:00 مساء</string>
+    <string name="date_ntp_config_automatic">تلقائي</string>
+    <string name="date_ntp_config_manual">كتيب</string>
+    <string name="date_dialog_title_select_time_zone">اختر المجال الزمني</string>
+    <string name="date_dialog_title_ntp_server_configuration">تكوين خادم NTP</string>
+    <!-- Display -->
+    <string name="display_title">عرض</string>
+    <string name="display_brightness_level">مستوى السطوع</string>
+    <string name="display_sleep">نايم</string>
+    <string name="display_font_size">حجم الخط</string>
+    <!-- Sound -->
+    <string name="sound_title">يبدو</string>
+    <string name="sound_notification_title">إشعار صوتي</string>
+    <string name="sound_ring_vol">حلقة المجلد.</string>
+    <string name="sound_intercom_vol">انتركم المجلد.</string>
+    <string name="sound_phone_ringtone">نغمة الرنين</string>
+    <string name="sound_dial_pad_tones">نغمات لوحة الطلب</string>
+    <string name="sound_touch_sounds">لمس الأصوات</string>
+    <string name="sound_screen_locking_sounds">أصوات قفل الشاشة</string>
+    <string name="sound_auto_answer">رد ألي</string>
+    <string name="sound_button">زر</string>
+    <!-- Ethernet -->
+    <string name="ethernet_title">إيثرنت</string>
+    <string name="ethernet_ip_mode">وضع إيثرنت IP</string>
+    <string name="ethernet_enabled">تم تمكين إيثرنت</string>
+    <string name="ethernet_disabled">تم تعطيل إيثرنت</string>
+    <!-- Language -->
+    <string name="language_title">لغة</string>
+    <string name="language_input_title">اللغة  u0026\ الإدخال</string>
+    <string name="language_input_content">الإنجليزية (المملكة المتحدة): لوحة مفاتيح Android (AOSP)</string>
+    <!-- wifi -->
+    <string name="wifi_title">واي فاي</string>
+    <string name="wifi_add_network">اضافة شبكة</string>
+    <string name="wifi_network_ssid">SSID للشبكة</string>
+    <string name="wifi_security">حماية</string>
+    <string name="wifi_password">كلمه السر</string>
+    <string name="wifi_show_password">عرض كلمة المرور</string>
+    <string name="wifi_show_advanced_options">عرض الخيارات المتقدمة</string>
+    <string name="wifi_ip_settings">إعدادات IP</string>
+    <string name="wifi_ip_address">عنوان IP</string>
+    <string name="wifi_gateway">بوابة</string>
+    <string name="wifi_network_prefix_len">طول بادئة الشبكة</string>
+    <string name="wifi_dns1">DNS1</string>
+    <string name="wifi_dns2">DNS2</string>
+    <string name="wifi_ntp_server_1">خادم NTP</string>
+    <string name="wifi_ntp_server_2">خادم NTP 2</string>
+    <string name="wifi_status">حالة</string>
+    <string name="wifi_signal_strength">قوة الاشارة</string>
+    <string name="wifi_link_speed">سرعة الارتباط</string>
+    <string name="wifi_frequency">تكرر</string>
+    <string name="wifi_security_none">لا أحد</string>
+    <string name="wifi_security_wep">WEP</string>
+    <string name="wifi_security_wpa">WPA PSK</string>
+    <string name="wifi_security_wpa2">WPA2 PSK</string>
+    <string name="wifi_security_wpa_wpa2">WPA/WPA2 PSK</string>
+    <string name="wifi_dialog_forget_config">ننسى هذا التكوين</string>
+    <string name="wifi_add_network_fail">فشل إضافة شبكة.  هذه الشبكة غير متوفرة.</string>
+    <!-- reset -->
+    <string name="master_clear_desc">"سيؤدي هذا الإجراء إلى محو جميع البيانات الموجودة على هذا "<b>"جهاز الذاكرة"</b>", بما فيها:\n\n"<li>"بيانات تطبيق Dnake"</li></string>
+    <!-- dialog text -->
+    <string name="dialog_title_system">نظام</string>
+    <string name="dialog_title_search">حوار البحث</string>
+    <string name="dialog_title_delete">حذف مربع الحوار</string>
+    <string name="dialog_msg_delete">هل أنت متأكد أنك تريد حذف جهة الاتصال هذه؟  لا يمكن التراجع عن هذا الإجراء.</string>
+    <string name="dialog_msg_delete_multi">هل أنت متأكد أنك تريد حذف جهات الاتصال هذه؟  لا يمكن التراجع عن هذا الإجراء.</string>
+    <string name="dialog_title_save">حفظ الحوار</string>
+    <string name="dialog_msg_save">هل أنت متأكد أنك تريد حفظ جهة الاتصال هذه؟</string>
+    <string name="dialog_title_first_set">حفظ الحوار</string>
+    <string name="dialog_msg_first_set">هل أنت متأكد من إرسال هذه التكوينات؟</string>
+    <string name="dialog_search">بحث</string>
+    <string name="dialog_confirm">يتأكد</string>
+    <string name="dialog_send">يرسل</string>
+    <string name="dialog_cancel">يلغي</string>
+    <string name="dialog_dtmf_input">"حوار إدخال DTMF"</string>
+    <string name="dialog_ok">نعم</string>
+    <string name="dialog_alert">يُحذًِر</string>
+    <!-- validate text -->
+    <string name="validate_password">تسجيل الدخول موجود ، كلمة المرور هذه إلزامية</string>
+    <string name="validate_login">كلمة المرور موجودة ، تسجيل الدخول هذا إلزامي</string>
+    <string name="validate_password_valid">الرجاء إدخال كلمة مرور صالحة ، على الأقل 8 أحرف!</string>
+    <string name="validate_password_enter">الرجاء إدخال كلمة المرور!</string>
+    <string name="validate_name_valid">يرجى التأكد من أن الاسم الذي تم إدخاله لا يزيد عن 32 حرفًا!</string>
+    <string name="validate_language_enter">الرجاء تحديد اللغة!</string>
+    <string name="validate_plant_name_enter">الرجاء إدخال اسم مصنع باب الفيديو!</string>
+    <string name="validate_device_name_enter">الرجاء إدخال اسم الجهاز!</string>
+    <string name="none_txt">لا أحد</string>
+    <string name="networking_title">الشبكات:</string>
+    <string name="networking_dialog_connect">الاتصال</string>
+    <!-- tuya -->
+    <string name="talk_text_main">باب</string>
+    <string name="talk_text_person">مستوي</string>
+    <string name="talk_text_unit_person">باب</string>
+    <string name="hint_edit_name">اسم الجهاز</string>
+    <string name="devices_head_no">لا.</string>
+    <string name="devices_head_id">بطاقة تعريف</string>
+    <string name="devices_head_type">يكتب</string>
+    <string name="devices_head_name">اسم</string>
+    <string name="forward_app">تحويل المكالمة إلى APP</string>
+    <string name="notification">إشعار</string>
+    <string name="app_monitor">مراقبة APP</string>
+    <string name="app">مراقب التطبيق</string>
+    <string name="uuid_isEmpty">يرجى تكوين UUID و Authkey على الويب أولاً</string>
+    <string name="tuya_id">بطاقة تعريف</string>
+    <string name="tuya_name">اسم</string>
+    <string name="tuya_type">يكتب</string>
+    <string name="get_qr_err">فشل الحصول على رمز الاستجابة السريعة!</string>
+    <string name="please_scan_qr">امسح رمز الاستجابة السريعة ضوئيًا!</string>
+    <string name="app_unbound">التطبيق غير منضم!</string>
+    <!-- Message -->
+    <string name="title_message">رسالة</string>
+    <string name="btn_clear">واضح</string>
+    <string name="title_incoming">واردة</string>
+    <string name="title_outgoing">منفتح</string>
+    <string name="prompt_message_clear_all">هل ترغب في مسح كافة الرسائل؟</string>
+    <!-- Settings -->
+    <string name="title_settings">إعدادات</string>
+    <string name="menu_display">عرض</string>
+    <string name="menu_sounds">اصوات</string>
+    <string name="menu_date">التاريخ والوقت</string>
+    <string name="menu_language">لغة</string>
+    <string name="menu_devices">الأجهزة</string>
+    <string name="menu_mode">الوضع</string>
+    <string name="menu_version">الإصدار</string>
+    <string name="menu_more">أكثر</string>
+    <string name="menu_eth">إيثرنت</string>
+    <string name="menu_wifi">واي فاي</string>
+    <string name="menu_room">غرفة</string>
+    <string name="menu_sip">رشفة</string>
+    <string name="menu_password">كلمه السر</string>
+    <string name="menu_apps">تطبيقات</string>
+    <string name="menu_reset">إعادة ضبط</string>
+    <!-- ethernet -->
+    <string name="networking_dhcp">DHCP</string>
+    <string name="networking_static">ثابتة</string>
+    <string name="ethernet_ip_address">IP</string>
+    <string name="ethernet_netmask">قناع</string>
+    <string name="ethernet_gateway">بوابة</string>
+    <string name="ethernet_dns1">DNS</string>
+    <string name="ethernet_current_ip">IP الحالي</string>
+    <!-- dnd -->
+    <string name="title_dnd">DND</string>
+    <string name="dnd_start_time">وقت البدء</string>
+    <string name="dnd_end_time">وقت النهاية</string>
+    <!-- password -->
+    <string name="password_old">عمر او قديم</string>
+    <string name="password_new">جديد</string>
+    <string name="password_confirm">يتأكد</string>
+    <!-- reset -->
+    <string name="prompt_reset">هل ترغب في إعادة ضبط إعدادات المصنع الافتراضية؟</string>
+    <string name="btn_reset">إعادة تعيين</string>
+    <!-- Room -->
+    <string name="room_building">مبنى</string>
+    <string name="room_riser">الناهض</string>
+    <string name="room_apart_no">رقم الشقة.</string>
+    <string name="room_device">جهاز</string>
+    <string name="room_sync">مزامنة</string>
+    <string name="room_cms_ip">CMS IP</string>
+    <string name="room_pwd">كلمه السر</string>
+    <!-- voip -->
+    <string name="voip_sip">رشفة</string>
+    <string name="voip_pwd">كلمه السر</string>
+    <string name="voip_display_name">اسم العرض</string>
+    <string name="voip_register_name">تسجيل الاسم</string>
+    <string name="voip_user_name">اسم المستخدم</string>
+    <string name="voip_server_host">مضيف خادم SIP</string>
+    <string name="voip_server_host_port">منفذ مضيف خادم SIP</string>
+    <string name="voip_outbound_proxy">بروكسي الصادر</string>
+    <string name="voip_outbound_proxy_port">منفذ الوكيل الصادر</string>
+    <string name="voip_transport_protocol">بروتوكول النقل</string>
+    <string name="voip_video_payload">حمولة الفيديو</string>
+    <!-- version -->
+    <string name="ver_firmware">البرامج الثابتة</string>
+    <string name="ver_ip">IP</string>
+    <string name="ver_wifi_ip">واي فاي IP</string>
+    <string name="ver_mac">ماك</string>
+    <string name="net_err">يرجى التحقق من الشبكة!</string>
+</resources>

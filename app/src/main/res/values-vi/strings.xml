@@ -1,0 +1,222 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="app_name">Dịch vụ</string>
+  <string name="main_btn_logger">tin nhắn</string>
+  <string name="main_btn_apps">TRÌNH DUYỆT</string>
+  <string name="main_btn_cook">ĐẦU BẾP</string>
+  <string name="main_btn_mall">MALL</string>
+  <string name="main_btn_stock">Chính phủ</string>
+  <string name="main_btn_map">BẢN ĐỒ</string>
+  <string name="logger_text_no">KHÔNG.</string>
+  <string name="logger_text_data">Nội dung</string>
+  <string name="logger_text_ts">Ngày</string>
+  <string name="logger_view_title">"Nội dung SMS"</string>
+  <string name="logger_view_ok">"VÂNG"</string>
+  <string name="logger_notify_title">"" Đã nhận được tin nhắn dịch vụ. "</string>
+  <string name="brower_webtalk_query">"Thiết bị truy vấn!"</string>
+  <string name="brower_webtalk_call">"Thiết bị gọi:"</string>
+  <string name="brower_webtalk_err">"Cuộc gọi thiết bị không thành công!"</string>
+  <string name="brower_loading">"Đang tải..."</string>
+  <string name="brower_err_title">"LỖI"</string>
+  <string name="brower_err_prompt">"Không tải được dịch vụ!"</string>
+  <string name="brower_err_ok">"VÂNG"</string>
+
+  <!-- Setting -->
+  <string name="login_title">Hệ thống</string>
+  <string name="login_passwd_prompt">Mật khẩu</string>
+  <string name="login_passwd_ok">ĐƯỢC RỒI</string>
+  <string name="login_passwd_cancel">Hủy bỏ</string>
+  <!-- Credentials -->
+  <string name="credentials_title">Thông tin xác thực</string>
+  <string name="credentials_old_pwd">Mật khẩu cũ</string>
+  <string name="credentials_new_pwd">Mật khẩu mới</string>
+  <string name="credentials_confirm_pwd">Xác nhận mật khẩu mới</string>
+  <!-- Date -->
+  <string name="date_title">Ngày  \u0026 giờ</string>
+  <string name="date_automatic_date_time">Ngày tự động  \u0026 giờ</string>
+  <string name="date_automatic_date_time_content">Sử dụng thời gian do mạng cung cấp</string>
+  <string name="date_automatic_time_zone">Múi giờ tự động</string>
+  <string name="date_automatic_time_zone_content">Sử dụng múi giờ do mạng cung cấp</string>
+  <string name="date_set_date">Ngày tháng</string>
+  <string name="date_set_time">Thời gian</string>
+  <string name="date_select_time_zone">Múi giờ</string>
+  <string name="date_24_hour_format">12 giờ/24 giờ</string>
+  <string name="date_ntp_configuration">NTP</string>
+  <string name="date_24_hour_example">13:00</string>
+  <string name="date_12_hour_example">13:00</string>
+  <string name="date_ntp_config_automatic">Tự động</string>
+  <string name="date_ntp_config_manual">Thủ công</string>
+  <string name="date_dialog_title_select_time_zone">Chọn múi giờ</string>
+  <string name="date_dialog_title_ntp_server_configuration">Cấu hình máy chủ NTP</string>
+  <!-- Display -->
+  <string name="display_title">Trưng bày</string>
+  <string name="display_brightness_level">Mức độ sáng</string>
+  <string name="display_sleep">Ngủ</string>
+  <string name="display_font_size">Cỡ chữ</string>
+  <!-- Sound -->
+  <string name="sound_title">Âm thanh</string>
+  <string name="sound_notification_title">Thông báo âm thanh  \u0026</string>
+  <string name="sound_ring_vol">Âm lượng chuông</string>
+  <string name="sound_intercom_vol">Liên lạc nội bộ Vol.</string>
+  <string name="sound_phone_ringtone">Nhạc chuông</string>
+  <string name="sound_dial_pad_tones">Âm bàn phím quay số</string>
+  <string name="sound_touch_sounds">Cảm ứng âm thanh</string>
+  <string name="sound_screen_locking_sounds">Âm thanh khóa màn hình</string>
+  <string name="sound_auto_answer">Trả lời tự động</string>
+  <string name="sound_button">Cái nút</string>
+  <!-- Ethernet -->
+  <string name="ethernet_title">Ethernet</string>
+  <string name="ethernet_ip_mode">Chế độ Ethernet Ip</string>
+  <string name="ethernet_enabled">Ethernet được kích hoạt</string>
+  <string name="ethernet_disabled">Ethernet bị tắt</string>
+  <!-- Language -->
+  <string name="language_title">Ngôn ngữ</string>
+  <string name="language_input_title">Ngôn ngữ  \u0026 đầu vào</string>
+  <string name="language_input_content">Tiếng Anh (Vương quốc Anh): Bàn phím Android (AOSP)</string>
+  <!-- wifi -->
+  <string name="wifi_title">Wifi</string>
+  <string name="wifi_add_network">Thêm mạng</string>
+  <string name="wifi_network_ssid">Mạng SSID</string>
+  <string name="wifi_security">Bảo vệ</string>
+  <string name="wifi_password">Mật khẩu</string>
+  <string name="wifi_show_password">Hiển thị mật khẩu</string>
+  <string name="wifi_show_advanced_options">Hiển thị các tùy chọn nâng cao</string>
+  <string name="wifi_ip_settings">Cài đặt IP</string>
+  <string name="wifi_ip_address">địa chỉ IP</string>
+  <string name="wifi_gateway">Cổng vào</string>
+  <string name="wifi_network_prefix_len">Độ dài tiền tố mạng</string>
+  <string name="wifi_dns1">DNS1</string>
+  <string name="wifi_dns2">DNS2</string>
+  <string name="wifi_ntp_server_1">Máy chủ NTP</string>
+  <string name="wifi_ntp_server_2">Máy chủ NTP 2</string>
+  <string name="wifi_status">Tình trạng</string>
+  <string name="wifi_signal_strength">Cường độ tín hiệu</string>
+  <string name="wifi_link_speed">Tốc độ liên kết</string>
+  <string name="wifi_frequency">Tính thường xuyên</string>
+  <string name="wifi_security_none">Không có</string>
+  <string name="wifi_security_wep">WEP</string>
+  <string name="wifi_security_wpa">WPA PSK</string>
+  <string name="wifi_security_wpa2">WPA2 PSK</string>
+  <string name="wifi_security_wpa_wpa2">WPA/WPA2 PSK</string>
+  <string name="wifi_dialog_forget_config">Quên cấu hình này</string>
+  <string name="wifi_add_network_fail">Không thêm được mạng.  Mạng này không khả dụng.</string>
+  <!-- reset -->
+  <string name="master_clear_desc">"Hành động này sẽ xóa tất cả dữ liệu về điều này "<b>"Thiết bị bộ nhớ"</b>", kể cả:\n\n"<li>"Dnake dữ liệu ứng dụng"</li></string>
+  <!-- dialog text -->
+  <string name="dialog_title_system">Hệ thống</string>
+  <string name="dialog_title_search">Hộp thoại Tìm kiếm</string>
+  <string name="dialog_title_delete">Xóa hộp thoại</string>
+  <string name="dialog_msg_delete">Bạn có chắc chắn muốn xóa liên hệ này không?  Hành động này không thể được hoàn tác.</string>
+  <string name="dialog_msg_delete_multi">Bạn có chắc chắn muốn xóa các liên hệ này không?  Hành động này không thể được hoàn tác.</string>
+  <string name="dialog_title_save">Lưu hộp thoại</string>
+  <string name="dialog_msg_save">Bạn có chắc chắn muốn lưu liên hệ này không?</string>
+  <string name="dialog_title_first_set">Lưu hộp thoại</string>
+  <string name="dialog_msg_first_set">Bạn có chắc chắn gửi các cấu hình này không?</string>
+  <string name="dialog_search">Tìm kiếm</string>
+  <string name="dialog_confirm">Xác nhận</string>
+  <string name="dialog_send">Gửi</string>
+  <string name="dialog_cancel">Hủy bỏ</string>
+  <string name="dialog_dtmf_input">"Hộp thoại đầu vào DTMF"</string>
+  <string name="dialog_ok">ĐƯỢC RỒI</string>
+  <string name="dialog_alert">Báo động</string>
+  <!-- validate text -->
+  <string name="validate_password">đăng nhập hiện có, mật khẩu này là bắt buộc</string>
+  <string name="validate_login">mật khẩu hiện có, đăng nhập này là bắt buộc</string>
+  <string name="validate_password_valid">Vui lòng nhập mật khẩu hợp lệ, ít nhất 8 ký tự!</string>
+  <string name="validate_password_enter">Vui lòng nhập mật khẩu!</string>
+  <string name="validate_name_valid">Hãy đảm bảo rằng tên đã nhập không lớn hơn 32 ký tự!</string>
+  <string name="validate_language_enter">Vui lòng chọn ngôn ngữ!</string>
+  <string name="validate_plant_name_enter">Vui lòng nhập tên nhà máy cửa video!</string>
+  <string name="validate_device_name_enter">Vui lòng nhập tên thiết bị!</string>
+  <string name="none_txt">Không có</string>
+  <string name="networking_title">Kết nối mạng:</string>
+  <string name="networking_dialog_connect">Kết nối</string>
+  <!-- tuya -->
+  <string name="talk_text_main">Cửa</string>
+  <string name="talk_text_person">Bằng phẳng</string>
+  <string name="talk_text_unit_person">Cửa</string>
+  <string name="please_scan_qr">Quét mã QR!</string>
+  <string name="hint_edit_name">Tên thiết bị</string>
+  <string name="devices_head_no">Không.</string>
+  <string name="devices_head_id">TÔI</string>
+  <string name="devices_head_type">Gõ phím</string>
+  <string name="devices_head_name">Tên</string>
+  <string name="forward_app">Chuyển tiếp cuộc gọi tới APP</string>
+  <string name="notification">Thông báo</string>
+  <string name="app_monitor">Giám sát APP</string>
+  <string name="app">Màn hình APP</string>
+  <string name="uuid_isEmpty">Vui lòng cấu hình UUID và Authkey trên Web trước</string>
+  <string name="tuya_id">TÔI</string>
+  <string name="tuya_name">Tên</string>
+  <string name="tuya_type">Gõ phím</string>
+  <string name="get_qr_err">Không lấy được mã QR!</string>
+  <string name="app_unbound">Ứng dụng không bị ràng buộc!</string>
+  <!-- Message -->
+  <string name="title_message">Tin nhắn</string>
+  <string name="btn_clear">Thông thoáng</string>
+  <string name="title_incoming">Mới đến</string>
+  <string name="title_outgoing">Hướng ngoaị</string>
+  <string name="prompt_message_clear_all">Bạn có muốn xóa tất cả các tin nhắn không?</string>
+  <!-- Settings -->
+  <string name="title_settings">Cài đặt</string>
+  <string name="menu_display">Trưng bày</string>
+  <string name="menu_sounds">Âm thanh</string>
+  <string name="menu_date">Ngày giờ</string>
+  <string name="menu_language">Ngôn ngữ</string>
+  <string name="menu_devices">Thiết bị</string>
+  <string name="menu_mode">Cách thức</string>
+  <string name="menu_version">Phiên bản</string>
+  <string name="menu_more">Hơn</string>
+  <string name="menu_eth">Ethernet</string>
+  <string name="menu_wifi">Wifi</string>
+  <string name="menu_room">Phòng</string>
+  <string name="menu_sip">một hớp</string>
+  <string name="menu_password">Mật khẩu</string>
+  <string name="menu_apps">Ứng dụng</string>
+  <string name="menu_reset">Cài lại</string>
+  <!-- ethernet -->
+  <string name="networking_dhcp">DHCP</string>
+  <string name="networking_static">Tĩnh</string>
+  <string name="ethernet_ip_address">IP</string>
+  <string name="ethernet_netmask">Mặt nạ</string>
+  <string name="ethernet_gateway">Cổng vào</string>
+  <string name="ethernet_dns1">DNS</string>
+  <string name="ethernet_current_ip">IP hiện tại</string>
+  <!-- dnd -->
+  <string name="title_dnd">DND</string>
+  <string name="dnd_start_time">Thời gian bắt đầu</string>
+  <string name="dnd_end_time">Thời gian kết thúc</string>
+  <!-- password -->
+  <string name="password_old">Cũ</string>
+  <string name="password_new">Mới mẻ</string>
+  <string name="password_confirm">Xác nhận</string>
+  <!-- reset -->
+  <string name="prompt_reset">Bạn có muốn đặt lại về mặc định ban đầu không?</string>
+  <string name="btn_reset">CÀI LẠI</string>
+  <!-- Room -->
+  <string name="room_building">Xây dựng</string>
+  <string name="room_riser">Ống đứng</string>
+  <string name="room_apart_no">Căn hộ số</string>
+  <string name="room_device">Thiết bị</string>
+  <string name="room_sync">Đồng bộ hóa</string>
+  <string name="room_cms_ip">IP CMS</string>
+  <string name="room_pwd">Mật khẩu</string>
+  <!-- voip -->
+  <string name="voip_sip">một hớp</string>
+  <string name="voip_pwd">Mật khẩu</string>
+  <string name="voip_display_name">Tên hiển thị</string>
+  <string name="voip_register_name">Tên đăng ký</string>
+  <string name="voip_user_name">tên tài khoản</string>
+  <string name="voip_server_host">Máy chủ SIP Máy chủ</string>
+  <string name="voip_server_host_port">Cổng máy chủ SIP</string>
+  <string name="voip_outbound_proxy">Proxy gửi đi</string>
+  <string name="voip_outbound_proxy_port">Cổng proxy ra</string>
+  <string name="voip_transport_protocol">Giao thức vận tải</string>
+  <string name="voip_video_payload">Tải trọng video</string>
+  <!-- version -->
+  <string name="ver_firmware">Chương trình cơ sở</string>
+  <string name="ver_ip">IP</string>
+  <string name="ver_wifi_ip">IP WiFi</string>
+  <string name="ver_mac">MAC</string>
+  <string name="net_err">Vui lòng kiểm tra Mạng!</string>
+</resources>

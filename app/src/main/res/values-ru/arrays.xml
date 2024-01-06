@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="screen_timeout_entries">
+        <item>15 секунд</item>
+        <item>30 секунд</item>
+        <item>1 минута</item>
+        <item>2 минуты</item>
+        <item>5 минут</item>
+        <item>10 минут</item>
+        <item>30 минут</item>
+    </string-array>
+    <string-array name="entries_font_size">
+        <item msgid="6490061470416867723">Небольшой</item>
+        <item msgid="3579015730662088893">Нормальный</item>
+        <item msgid="1678068858001018666">Большой</item>
+        <item msgid="490158884605093126">Огромный</item>
+    </string-array>
+</resources>

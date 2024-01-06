@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="screen_timeout_entries">
+        <item>15 saniye</item>
+        <item>30 saniye</item>
+        <item>1 dakika</item>
+        <item>2 dakika</item>
+        <item>5 dakika</item>
+        <item>10 dakika</item>
+        <item>30 dakika</item>
+    </string-array>
+    <string-array name="entries_font_size">
+        <item msgid="6490061470416867723">Küçük</item>
+        <item msgid="3579015730662088893">Normal</item>
+        <item msgid="1678068858001018666">Büyük</item>
+        <item msgid="490158884605093126">Büyük</item>
+    </string-array>
+</resources>

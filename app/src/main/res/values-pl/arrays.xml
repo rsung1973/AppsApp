@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="screen_timeout_entries">
+        <item>15 sekund</item>
+        <item>30 sekund</item>
+        <item>1 minuta</item>
+        <item>2 minuty</item>
+        <item>5 minut</item>
+        <item>10 minut</item>
+        <item>30 minut</item>
+    </string-array>
+    <string-array name="entries_font_size">
+        <item msgid="6490061470416867723">Mały</item>
+        <item msgid="3579015730662088893">Normalna</item>
+        <item msgid="1678068858001018666">Wielki</item>
+        <item msgid="490158884605093126">Olbrzymi</item>
+    </string-array>
+</resources>

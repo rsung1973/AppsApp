@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="screen_timeout_entries">
+        <item>15 秒</item>
+        <item>30 秒</item>
+        <item>1 分</item>
+        <item>2 分</item>
+        <item>5 分</item>
+        <item>10 分</item>
+        <item>30 分</item>
+    </string-array>
+    <string-array name="entries_font_size">
+        <item msgid="6490061470416867723">小</item>
+        <item msgid="3579015730662088893">标准</item>
+        <item msgid="1678068858001018666">大</item>
+        <item msgid="490158884605093126">超大</item>
+    </string-array>
+</resources>

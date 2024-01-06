@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="screen_timeout_entries">
+        <item>15 giây</item>
+        <item>30 giây</item>
+        <item>1 phút</item>
+        <item>2 phút</item>
+        <item>5 phút</item>
+        <item>10 phút</item>
+        <item>30 phút</item>
+    </string-array>
+    <string-array name="entries_font_size">
+        <item msgid="6490061470416867723">Nhỏ</item>
+        <item msgid="3579015730662088893">Bình thường</item>
+        <item msgid="1678068858001018666">Lớn</item>
+        <item msgid="490158884605093126">Khổng lồ</item>
+    </string-array>
+</resources>

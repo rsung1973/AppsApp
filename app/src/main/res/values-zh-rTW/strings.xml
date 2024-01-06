@@ -1,0 +1,228 @@
+<resources>
+
+    <string name="app_name">社區服務</string>
+    <string name="main_btn_logger">公告通知</string>
+    <string name="main_btn_apps">社區網站</string>
+    <string name="main_btn_cook">業主專區</string>
+    <string name="main_btn_mall">週邊商家</string>
+    <string name="main_btn_stock">政務</string>
+    <string name="main_btn_map">社區地圖</string>
+
+    <string name="logger_text_no">序  號</string>
+    <string name="logger_text_data">內  容</string>
+    <string name="logger_text_ts">日  期</string>
+
+    <string name="logger_view_title">信  息  內  容</string>
+    <string name="logger_view_ok">確  定</string>
+
+    <string name="logger_notify_title">物業信息通知</string>
+
+    <string name="brower_webtalk_query">"正在查詢設備!"</string>
+    <string name="brower_webtalk_call">"正在呼叫設備:"</string>
+    <string name="brower_webtalk_err">"設備呼叫失敗!"</string>
+
+    <string name="brower_loading">"系統加載中，請稍後..."</string>
+    <string name="brower_err_title">"錯誤"</string>
+    <string name="brower_err_prompt">"系統服務加載失敗!"</string>
+    <string name="brower_err_ok">"確 定"</string>
+
+    <!-- Setting -->
+    <string name="login_title">系統</string>
+    <string name="login_passwd_prompt">密碼</string>
+    <string name="login_passwd_ok">確認</string>
+    <string name="login_passwd_cancel">取消</string>
+    <!-- Credentials -->
+    <string name="credentials_title">證書</string>
+    <string name="credentials_old_pwd">舊密碼</string>
+    <string name="credentials_new_pwd">新密碼</string>
+    <string name="credentials_confirm_pwd">確認新密碼</string>
+    <!-- Date -->
+    <string name="date_title">日期 \u0026 時間</string>
+    <string name="date_automatic_date_time">自動日期\u0026時間</string>
+    <string name="date_automatic_date_time_content">使用網絡提供的時間</string>
+    <string name="date_automatic_time_zone">自動時區</string>
+    <string name="date_automatic_time_zone_content">使用網絡提供的時區</string>
+    <string name="date_set_date">日期</string>
+    <string name="date_set_time">時間</string>
+    <string name="date_select_time_zone">時區</string>
+    <string name="date_24_hour_format">12小時/24小時</string>
+    <string name="date_ntp_configuration">NTP</string>
+    <string name="date_24_hour_example">13:00</string>
+    <string name="date_12_hour_example">1:00 PM</string>
+    <string name="date_ntp_config_automatic">自動的</string>
+    <string name="date_ntp_config_manual">手動的</string>
+    <string name="date_dialog_title_select_time_zone">選擇時區</string>
+    <string name="date_dialog_title_ntp_server_configuration">NTP 服務器配置</string>
+    <!-- Display -->
+    <string name="display_title">顯示</string>
+    <string name="display_brightness_level">亮度等級</string>
+    <string name="display_sleep">休眠時間</string>
+    <string name="display_font_size">字體大小</string>
+    <!-- Sound -->
+    <string name="sound_title">聲音</string>
+    <string name="sound_notification_title">聲音通知</string>
+    <string name="sound_ring_vol">來電鈴聲</string>
+    <string name="sound_intercom_vol">對講音量</string>
+    <string name="sound_phone_ringtone">鈴聲</string>
+    <string name="sound_dial_pad_tones">撥號盤音</string>
+    <string name="sound_touch_sounds">觸摸聲音</string>
+    <string name="sound_screen_locking_sounds">屏幕鎖定聲音</string>
+    <string name="sound_auto_answer">自動應答</string>
+    <string name="sound_button">按鈕</string>
+    <!-- Ethernet -->
+    <string name="ethernet_title">以太網</string>
+    <string name="ethernet_ip_mode">以太網IP模式</string>
+    <string name="ethernet_enabled">以太網已啟用</string>
+    <string name="ethernet_disabled">以太網被禁用</string>
+    <!-- Language -->
+    <string name="language_title">語言</string>
+    <string name="language_input_title">語言輸入</string>
+    <string name="language_input_content">英語（英國）：Android 鍵盤（AOSP）</string>
+    <!-- wifi -->
+    <string name="wifi_title">無線上網</string>
+    <string name="wifi_add_network">添加網絡</string>
+    <string name="wifi_network_ssid">網絡 SSID</string>
+    <string name="wifi_security">安全</string>
+    <string name="wifi_password">密碼</string>
+    <string name="wifi_show_password">顯示密碼</string>
+    <string name="wifi_show_advanced_options">顯示高級選項</string>
+    <string name="wifi_ip_settings">IP 設置</string>
+    <string name="wifi_ip_address">IP地址</string>
+    <string name="wifi_gateway">網關</string>
+    <string name="wifi_network_prefix_len">網絡前綴長度</string>
+    <string name="wifi_dns1">DNS1</string>
+    <string name="wifi_dns2">DNS2</string>
+    <string name="wifi_ntp_server_1">NTP 服務器</string>
+    <string name="wifi_ntp_server_2">NTP 服務器 2</string>
+    <string name="wifi_status">狀態</string>
+    <string name="wifi_signal_strength">信號強度</string>
+    <string name="wifi_link_speed">鏈接速度</string>
+    <string name="wifi_frequency">頻率</string>
+    <string name="wifi_security_none">無</string>
+    <string name="wifi_security_wep">WEP</string>
+    <string name="wifi_security_wpa">WPA PSK</string>
+    <string name="wifi_security_wpa2">WPA2 PSK</string>
+    <string name="wifi_security_wpa_wpa2">WPA/WPA2 PSK</string>
+    <string name="wifi_dialog_forget_config">忘記這個配置</string>
+    <string name="wifi_add_network_fail">添加網絡失敗，此網絡不可用。</string>
+    <!-- reset -->
+    <string name="master_clear_desc">"此操作將清除此上的所有數據 "<b>"存儲設備"</b>", 包含:\n\n"<li>"Dnake 應用程序數據"</li></string>
+    <!-- dialog text -->
+    <string name="dialog_title_system">系統</string>
+    <string name="dialog_title_search">搜索對話框</string>
+    <string name="dialog_title_delete">刪除對話框</string>
+    <string name="dialog_msg_delete">您確定要刪除此聯繫人嗎？此操作無法撤消。</string>
+    <string name="dialog_msg_delete_multi">您確定要刪除這些聯繫人嗎？ 此操作無法撤消。</string>
+    <string name="dialog_title_save">保存對話框</string>
+    <string name="dialog_msg_save">您確定要保存此聯繫人嗎？</string>
+    <string name="dialog_title_first_set">保存對話框</string>
+    <string name="dialog_msg_first_set">您確定要提交這些配置嗎？</string>
+    <string name="dialog_search">搜索</string>
+    <string name="dialog_confirm">確認</string>
+    <string name="dialog_send">發送</string>
+    <string name="dialog_cancel">取消</string>
+    <string name="dialog_dtmf_input">“DTMF 輸入對話框”</string>
+    <string name="dialog_ok">確定</string>
+    <string name="dialog_alert">警報</string>
+    <!-- validate text -->
+    <string name="validate_password">登錄存在，此密碼是必需的</string>
+    <string name="validate_login">密碼存在，此登錄是強制性的</string>
+    <string name="validate_password_valid">請輸入有效密碼，至少8個字符！</string>
+    <string name="validate_password_enter">請輸入密碼！</string>
+    <string name="validate_name_valid">請確保輸入的名稱不超過 32 個字符！</string>
+    <string name="validate_language_enter">請選擇語言！</string>
+    <string name="validate_plant_name_enter">請輸入門口機名稱！</string>
+    <string name="validate_device_name_enter">請輸入設備名稱！</string>
+    <string name="none_txt">無</string>
+    <string name="networking_title">聯網：</string>
+    <string name="networking_dialog_connect">連接</string>
+    <!-- tuya -->
+    <string name="talk_text_main">單元門口機</string>
+    <string name="talk_text_person">小門口機</string>
+    <string name="hint_edit_name">設備名稱</string>
+    <string name="devices_head_no">序號</string>
+    <string name="devices_head_id">ID</string>
+    <string name="devices_head_type">類型</string>
+    <string name="devices_head_name">姓名</string>
+    <!-- Message -->
+    <string name="title_message">信息</string>
+    <string name="btn_clear">清除</string>
+    <string name="title_incoming">來信</string>
+    <string name="title_outgoing">傳出</string>
+    <string name="prompt_message_clear_all">要清除所有消息嗎？</string>
+    <!-- Settings -->
+    <string name="title_settings">設置</string>
+    <string name="menu_display">顯示</string>
+    <string name="menu_sounds">聲音</string>
+    <string name="menu_date">日期</string>
+    <string name="menu_language">語言</string>
+    <string name="menu_devices">設備</string>
+    <string name="menu_mode">模式</string>
+    <string name="menu_version">版本</string>
+    <string name="menu_more">更多的</string>
+    <string name="menu_eth">以太網</string>
+    <string name="menu_wifi">無線上網</string>
+    <string name="menu_room">房間</string>
+    <string name="menu_sip">SIP</string>
+    <string name="menu_password">密碼</string>
+    <string name="menu_apps">應用</string>
+    <string name="menu_reset">重置</string>
+    <!-- ethernet -->
+    <string name="networking_dhcp">DHCP</string>
+    <string name="networking_static">靜態</string>
+    <string name="ethernet_ip_address">IP地址</string>
+    <string name="ethernet_netmask">子網掩碼</string>
+    <string name="ethernet_gateway">網關</string>
+    <string name="ethernet_dns1">域名系統</string>
+    <string name="ethernet_current_ip">當前IP</string>
+    <!-- dnd -->
+    <string name="title_dnd">免打擾</string>
+    <string name="dnd_start_time">開始時間</string>
+    <string name="dnd_end_time">時間結束</string>
+    <!-- password -->
+    <string name="password_old">舊密碼</string>
+    <string name="password_new">新密碼</string>
+    <string name="password_confirm">確認</string>
+    <!-- reset -->
+    <string name="prompt_reset">您要恢復出廠默認設置嗎？</string>
+    <string name="btn_reset">重啟</string>
+    <!-- Room -->
+    <string name="room_building">楼栋</string>
+    <string name="room_riser">單元號</string>
+    <string name="room_apart_no">公寓號</string>
+    <string name="room_device">設備</string>
+    <string name="room_sync">同步</string>
+    <string name="room_cms_ip">管理系統 IP</string>
+    <string name="room_pwd">密碼</string>
+    <!-- voip -->
+    <string name="voip_sip">SIP</string>
+    <string name="voip_pwd">密碼</string>
+    <string name="voip_display_name">顯示名稱</string>
+    <string name="voip_register_name">註冊名稱</string>
+    <string name="voip_user_name">用戶名</string>
+    <string name="voip_server_host">SIP服務器主地址</string>
+    <string name="voip_server_host_port">SIP服務器主地址端口</string>
+    <string name="voip_outbound_proxy">Outbound代理服務器</string>
+    <string name="voip_outbound_proxy_port">Ountbound代理服務器端口</string>
+    <string name="voip_transport_protocol">傳輸協議</string>
+    <string name="voip_video_payload">視頻負載</string>
+    <!-- version -->
+    <string name="ver_firmware">固件</string>
+    <string name="ver_ip">IP地址</string>
+    <string name="ver_wifi_ip">WiFi IP</string>
+    <string name="ver_mac">MAC</string>
+
+    <string name="forward_app">將來電轉接至APP</string>
+    <string name="notification">通知</string>
+    <string name="app_monitor">APP監控</string>
+    <string name="app">APP監控</string>
+    <string name="uuid_isEmpty">請先在 Web 上配置 UUID 和 Authkey</string>
+    <string name="tuya_id">ID</string>
+    <string name="tuya_name">名</string>
+    <string name="tuya_type">類型</string>
+    <string name="get_qr_err">獲取二維碼失敗！</string>
+    <string name="please_scan_qr">掃描二維碼！</string>
+    <string name="app_unbound">APP未綁定！</string>
+    <string name="talk_text_unit_person">門口機</string>
+    <string name="net_err">請檢查網絡！</string>
+</resources>

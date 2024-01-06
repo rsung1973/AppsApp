@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="screen_timeout_entries">
+        <item>15 ثانية</item>
+        <item>30 ثانية</item>
+        <item>1 دقيقة</item>
+        <item>2 دقيقة</item>
+        <item>5 دقائق</item>
+        <item>10 دقائق</item>
+        <item>30 دقيقة</item>
+    </string-array>
+
+    <string-array name="entries_font_size">
+        <item msgid="6490061470416867723">صغير</item>
+        <item msgid="3579015730662088893">طبيعي</item>
+        <item msgid="1678068858001018666">كبير</item>
+        <item msgid="490158884605093126">ضخم</item>
+    </string-array>
+</resources>

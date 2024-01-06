@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="switch_track_width">40dp</dimen>
+    <dimen name="switch_track_height">21dp</dimen>
+    <dimen name="switch_thumb_stroke_width">1.5dp</dimen>
+</resources>

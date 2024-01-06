@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/shape_layout_24"
+        android:orientation="vertical">
+
+        <com.dnake.widget.SettingsItemLayout
+            android:id="@+id/layout_fw"
+            android:layout_width="match_parent"
+            android:layout_height="72dp"
+            app:arrow_visible="false"
+            app:content_text_visible="true"
+            app:switch_btn_visible="false"
+            app:title_text="@string/ver_firmware" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:background="@color/white" />
+
+        <com.dnake.widget.SettingsItemLayout
+            android:id="@+id/layout_ui"
+            android:layout_width="match_parent"
+            android:layout_height="72dp"
+            android:visibility="gone"
+            app:arrow_visible="false"
+            app:content_text_visible="true"
+            app:switch_btn_visible="false"
+            app:title_text="UI" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:background="@color/white"
+            android:visibility="gone" />
+
+        <com.dnake.widget.SettingsItemLayout
+            android:id="@+id/layout_ip"
+            android:layout_width="match_parent"
+            android:layout_height="72dp"
+            app:arrow_visible="false"
+            app:content_text_visible="true"
+            app:switch_btn_visible="false"
+            app:title_text="@string/ver_ip" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:background="@color/white" />
+
+        <com.dnake.widget.SettingsItemLayout
+            android:id="@+id/layout_wifi_ip"
+            android:layout_width="match_parent"
+            android:layout_height="72dp"
+            app:arrow_visible="false"
+            app:content_text_visible="true"
+            app:switch_btn_visible="false"
+            app:title_text="@string/ver_wifi_ip" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:background="@color/white" />
+
+        <com.dnake.widget.SettingsItemLayout
+            android:id="@+id/layout_mac"
+            android:layout_width="match_parent"
+            android:layout_height="72dp"
+            app:arrow_visible="false"
+            app:content_text_visible="true"
+            app:switch_btn_visible="false"
+            app:title_text="@string/ver_mac" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:background="@color/white" />
+
+        <com.dnake.widget.SettingsItemLayout
+            android:id="@+id/layout_sip_status"
+            android:layout_width="match_parent"
+            android:layout_height="72dp"
+            app:arrow_visible="false"
+            app:content_text_visible="true"
+            app:switch_btn_visible="false"
+            app:title_text="@string/ver_sip_status" />
+    </LinearLayout>
+</ScrollView>

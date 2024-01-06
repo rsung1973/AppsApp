@@ -1,0 +1,221 @@
+<resources>
+  <string name="app_name">Услуга</string>
+  <string name="main_btn_logger">SMS</string>
+  <string name="main_btn_apps">БРАУЗЕР</string>
+  <string name="main_btn_cook">ПОВАР</string>
+  <string name="main_btn_mall">MALL</string>
+  <string name="main_btn_stock">GOV</string>
+  <string name="main_btn_map">КАРТА</string>
+  <string name="logger_text_no">НЕТ.</string>
+  <string name="logger_text_data">Содержание</string>
+  <string name="logger_text_ts">Дата</string>
+  <string name="logger_view_title">«SMS-контент»</string>
+  <string name="logger_view_ok">"OK"</string>
+  <string name="logger_notify_title">"" Служебное сообщение получено. "</string>
+  <string name="brower_webtalk_query">"Запрашивающее устройство!"</string>
+  <string name="brower_webtalk_call">"Вызывающее устройство:"</string>
+  <string name="brower_webtalk_err">"Не удалось вызвать устройство!"</string>
+  <string name="brower_loading">"Загрузка..."</string>
+  <string name="brower_err_title">"ОШИБКА"</string>
+  <string name="brower_err_prompt">"Сервис не загрузился!"</string>
+  <string name="brower_err_ok">"OK"</string>
+
+  <!-- Setting -->
+  <string name="login_title">Система</string>
+  <string name="login_passwd_prompt">Пароль</string>
+  <string name="login_passwd_ok">ХОРОШО</string>
+  <string name="login_passwd_cancel">Отмена</string>
+  <!-- Credentials -->
+  <string name="credentials_title">Реквизиты для входа</string>
+  <string name="credentials_old_pwd">Старый пароль</string>
+  <string name="credentials_new_pwd">Новый пароль</string>
+  <string name="credentials_confirm_pwd">Подтвердите новый пароль</string>
+  <!-- Date -->
+  <string name="date_title">Дата  \u0026 время</string>
+  <string name="date_automatic_date_time">Автоматическая дата  \u0026 время</string>
+  <string name="date_automatic_date_time_content">Используйте предоставленное сетью время</string>
+  <string name="date_automatic_time_zone">Автоматический часовой пояс</string>
+  <string name="date_automatic_time_zone_content">Использовать предоставленный сетью часовой пояс</string>
+  <string name="date_set_date">Дата</string>
+  <string name="date_set_time">Время</string>
+  <string name="date_select_time_zone">Часовой пояс</string>
+  <string name="date_24_hour_format">12 ч/24 ч</string>
+  <string name="date_ntp_configuration">НТП</string>
+  <string name="date_24_hour_example">13:00</string>
+  <string name="date_12_hour_example">1:00 ВЕЧЕРА</string>
+  <string name="date_ntp_config_automatic">автоматический</string>
+  <string name="date_ntp_config_manual">Руководство по эксплуатации</string>
+  <string name="date_dialog_title_select_time_zone">Выберите часовой пояс</string>
+  <string name="date_dialog_title_ntp_server_configuration">Конфигурация NTP-сервера</string>
+  <!-- Display -->
+  <string name="display_title">Отображать</string>
+  <string name="display_brightness_level">Уровень яркости</string>
+  <string name="display_sleep">Спать</string>
+  <string name="display_font_size">Размер шрифта</string>
+  <!-- Sound -->
+  <string name="sound_title">Звук</string>
+  <string name="sound_notification_title">Звуковое оповещение \u0026</string>
+  <string name="sound_ring_vol">Кольцо Том.</string>
+  <string name="sound_intercom_vol">Интерком Том.</string>
+  <string name="sound_phone_ringtone">Рингтон</string>
+  <string name="sound_dial_pad_tones">Звуки набора номера</string>
+  <string name="sound_touch_sounds">Сенсорные звуки</string>
+  <string name="sound_screen_locking_sounds">Звук блокировки экрана</string>
+  <string name="sound_auto_answer">Автоматический ответ</string>
+  <string name="sound_button">Кнопка</string>
+  <!-- Ethernet -->
+  <string name="ethernet_title">Ethernet</string>
+  <string name="ethernet_ip_mode">IP-режим Ethernet</string>
+  <string name="ethernet_enabled">Ethernet включен</string>
+  <string name="ethernet_disabled">Ethernet отключен</string>
+  <!-- Language -->
+  <string name="language_title">Язык</string>
+  <string name="language_input_title">Язык  \u0026 ввод</string>
+  <string name="language_input_content">Английский (Великобритания): Клавиатура Android (AOSP)</string>
+  <!-- wifi -->
+  <string name="wifi_title">Вай фай</string>
+  <string name="wifi_add_network">Добавить сеть</string>
+  <string name="wifi_network_ssid">SSID сети</string>
+  <string name="wifi_security">Безопасность</string>
+  <string name="wifi_password">Пароль</string>
+  <string name="wifi_show_password">Показать пароль</string>
+  <string name="wifi_show_advanced_options">Показать дополнительные параметры</string>
+  <string name="wifi_ip_settings">IP-настройки</string>
+  <string name="wifi_ip_address">айпи адрес</string>
+  <string name="wifi_gateway">Шлюз</string>
+  <string name="wifi_network_prefix_len">Длина сетевого префикса</string>
+  <string name="wifi_dns1">DNS1</string>
+  <string name="wifi_dns2">DNS2</string>
+  <string name="wifi_ntp_server_1">NTP-сервер</string>
+  <string name="wifi_ntp_server_2">NTP-сервер 2</string>
+  <string name="wifi_status">Статус</string>
+  <string name="wifi_signal_strength">Сила сигнала</string>
+  <string name="wifi_link_speed">Скорость связи</string>
+  <string name="wifi_frequency">Частота</string>
+  <string name="wifi_security_none">Никто</string>
+  <string name="wifi_security_wep">WEP</string>
+  <string name="wifi_security_wpa">WPA PSK</string>
+  <string name="wifi_security_wpa2">WPA2 PSK</string>
+  <string name="wifi_security_wpa_wpa2">WPA/WPA2 PSK</string>
+  <string name="wifi_dialog_forget_config">Забудьте об этой конфигурации</string>
+  <string name="wifi_add_network_fail">Не удалось добавить сеть.  Эта сеть недоступна.</string>
+  <!-- reset -->
+  <string name="master_clear_desc">"Это действие удалит все данные на этом "<b>"Устройство памяти"</b>", в том числе:\n\n"<li>"Данные приложения Dnake"</li></string>
+  <!-- dialog text -->
+  <string name="dialog_title_system">Система</string>
+  <string name="dialog_title_search">Диалог поиска</string>
+  <string name="dialog_title_delete">Удалить диалог</string>
+  <string name="dialog_msg_delete">Вы уверены, что хотите удалить этот контакт?  Это действие не может быть отменено.</string>
+  <string name="dialog_msg_delete_multi">Вы уверены, что хотите удалить эти контакты?  Это действие не может быть отменено.</string>
+  <string name="dialog_title_save">Сохранить диалог</string>
+  <string name="dialog_msg_save">Вы уверены, что хотите сохранить этот контакт?</string>
+  <string name="dialog_title_first_set">Сохранить диалог</string>
+  <string name="dialog_msg_first_set">Вы уверены, что хотите отправить эти конфигурации?</string>
+  <string name="dialog_search">Поиск</string>
+  <string name="dialog_confirm">Подтверждать</string>
+  <string name="dialog_send">Отправлять</string>
+  <string name="dialog_cancel">Отмена</string>
+  <string name="dialog_dtmf_input">"Диалог ввода DTMF"</string>
+  <string name="dialog_ok">ХОРОШО</string>
+  <string name="dialog_alert">Тревога</string>
+  <!-- validate text -->
+  <string name="validate_password">логин присутствует, этот пароль обязателен</string>
+  <string name="validate_login">пароль присутствует, этот логин обязателен</string>
+  <string name="validate_password_valid">Пожалуйста, введите правильный пароль, не менее 8 символов!</string>
+  <string name="validate_password_enter">Пожалуйста, введите пароль!</string>
+  <string name="validate_name_valid">Пожалуйста, убедитесь, что введенное имя не превышает 32 символов!</string>
+  <string name="validate_language_enter">Пожалуйста, выберите язык!</string>
+  <string name="validate_plant_name_enter">Пожалуйста, введите название завода по производству видеодверей!</string>
+  <string name="validate_device_name_enter">Пожалуйста, введите имя устройства!</string>
+  <string name="none_txt">Никто</string>
+  <string name="networking_title">Сеть:</string>
+  <string name="networking_dialog_connect">Соединять</string>
+  <!-- tuya -->
+  <string name="talk_text_main">Дверь</string>
+  <string name="talk_text_person">Плоский</string>
+  <string name="talk_text_unit_person">Дверь</string>
+  <string name="please_scan_qr">Сканируй QR-код!</string>
+  <string name="hint_edit_name">имя устройства</string>
+  <string name="devices_head_no">Нет.</string>
+  <string name="devices_head_id">Я БЫ</string>
+  <string name="devices_head_type">Тип</string>
+  <string name="devices_head_name">Имя</string>
+  <string name="forward_app">Переадресация вызова в приложение</string>
+  <string name="notification">Уведомление</string>
+  <string name="app_monitor">Мониторинг приложений</string>
+  <string name="app">Приложение Монитор</string>
+  <string name="uuid_isEmpty">Сначала настройте UUID и Authkey в Интернете.</string>
+  <string name="tuya_id">Я БЫ</string>
+  <string name="tuya_name">Имя</string>
+  <string name="tuya_type">Тип</string>
+  <string name="get_qr_err">Не удалось получить QR-код!</string>
+  <string name="app_unbound">Приложение без привязки!</string>
+  <!-- Message -->
+  <string name="title_message">Сообщение</string>
+  <string name="btn_clear">Прозрачный</string>
+  <string name="title_incoming">Входящий</string>
+  <string name="title_outgoing">Исходящий</string>
+  <string name="prompt_message_clear_all">Удалить все сообщения?</string>
+  <!-- Settings -->
+  <string name="title_settings">Настройки</string>
+  <string name="menu_display">Отображать</string>
+  <string name="menu_sounds">Звуки</string>
+  <string name="menu_date">Дата и время</string>
+  <string name="menu_language">Язык</string>
+  <string name="menu_devices">Устройства</string>
+  <string name="menu_mode">Режим</string>
+  <string name="menu_version">Версия</string>
+  <string name="menu_more">Более</string>
+  <string name="menu_eth">Ethernet</string>
+  <string name="menu_wifi">Вай фай</string>
+  <string name="menu_room">Номер</string>
+  <string name="menu_sip">ГЛОТОК</string>
+  <string name="menu_password">Пароль</string>
+  <string name="menu_apps">Программы</string>
+  <string name="menu_reset">Перезагрузить</string>
+  <!-- ethernet -->
+  <string name="networking_dhcp">DHCP</string>
+  <string name="networking_static">Статический</string>
+  <string name="ethernet_ip_address">IP</string>
+  <string name="ethernet_netmask">Маска</string>
+  <string name="ethernet_gateway">Шлюз</string>
+  <string name="ethernet_dns1">DNS</string>
+  <string name="ethernet_current_ip">Текущий IP</string>
+  <!-- dnd -->
+  <string name="title_dnd">Не беспокоить</string>
+  <string name="dnd_start_time">Время начала</string>
+  <string name="dnd_end_time">Время окончания</string>
+  <!-- password -->
+  <string name="password_old">Старый</string>
+  <string name="password_new">Новый</string>
+  <string name="password_confirm">Подтверждать</string>
+  <!-- reset -->
+  <string name="prompt_reset">Хотите сбросить настройки до заводских?</string>
+  <string name="btn_reset">ПЕРЕЗАГРУЗИТЬ</string>
+  <!-- Room -->
+  <string name="room_building">Строительство</string>
+  <string name="room_riser">стояк</string>
+  <string name="room_apart_no">Квартира №</string>
+  <string name="room_device">Устройство</string>
+  <string name="room_sync">Синхронизировать</string>
+  <string name="room_cms_ip">IP-адрес CMS</string>
+  <string name="room_pwd">Пароль</string>
+  <!-- voip -->
+  <string name="voip_sip">ГЛОТОК</string>
+  <string name="voip_pwd">Пароль</string>
+  <string name="voip_display_name">Показать имя</string>
+  <string name="voip_register_name">Регистрационное имя</string>
+  <string name="voip_user_name">Имя пользователя</string>
+  <string name="voip_server_host">Хост SIP-сервера</string>
+  <string name="voip_server_host_port">Хост-порт SIP-сервера</string>
+  <string name="voip_outbound_proxy">Исходящий прокси</string>
+  <string name="voip_outbound_proxy_port">Исходящий прокси-порт</string>
+  <string name="voip_transport_protocol">Транспортный протокол</string>
+  <string name="voip_video_payload">Полезная нагрузка видео</string>
+  <!-- version -->
+  <string name="ver_firmware">Прошивка</string>
+  <string name="ver_ip">IP</string>
+  <string name="ver_wifi_ip">IP-адрес Wi-Fi</string>
+  <string name="ver_mac">МАК</string>
+  <string name="net_err">Пожалуйста, проверьте сеть!</string>
+</resources>

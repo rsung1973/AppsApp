@@ -1,0 +1,222 @@
+<resources>
+
+    <string name="app_name">Servis</string>
+    <string name="main_btn_logger">SMS</string>
+    <string name="main_btn_apps">TARAYICI</string>
+    <string name="main_btn_cook">COOK</string>
+    <string name="main_btn_mall">MALL</string>
+    <string name="main_btn_stock">GOV</string>
+    <string name="main_btn_map">HARITA</string>
+    <string name="logger_text_no">NO.</string>
+    <string name="logger_text_data">Ýçerik</string>
+    <string name="logger_text_ts">Tarih</string>
+    <string name="logger_view_title">"SMS Content"</string>
+    <string name="logger_view_ok">"TAMAM"</string>
+    <string name="logger_notify_title">""Servis mesajý alýndý."</string>
+    <string name="brower_webtalk_query">"Sorgulanan cihaz!"</string>
+    <string name="brower_webtalk_call">"Aranan cihaz:"</string>
+    <string name="brower_webtalk_err">"Cihaz aramasý baþarýsýz!"</string>
+    <string name="brower_loading">"Yükleniyor..."</string>
+    <string name="brower_err_title">"HATA"</string>
+    <string name="brower_err_prompt">"Servis yüklemesi baþarýsýz!"</string>
+    <string name="brower_err_ok">"TAMAM"</string>
+
+    <!-- Setting -->
+    <string name="login_title">sistem</string>
+    <string name="login_passwd_prompt">Parola</string>
+    <string name="login_passwd_ok">TAMAM</string>
+    <string name="login_passwd_cancel">İptal etmek</string>
+    <!-- Credentials -->
+    <string name="credentials_title">kimlik bilgileri</string>
+    <string name="credentials_old_pwd">Eski Şifre</string>
+    <string name="credentials_new_pwd">Yeni Şifre</string>
+    <string name="credentials_confirm_pwd">Yeni şifreyi onayla</string>
+    <!-- Date -->
+    <string name="date_title">Tarih \u0026 saat</string>
+    <string name="date_automatic_date_time">Otomatik tarih \u0026 saat</string>
+    <string name="date_automatic_date_time_content">Ağ tarafından sağlanan zamanı kullan</string>
+    <string name="date_automatic_time_zone">Otomatik saat dilimi</string>
+    <string name="date_automatic_time_zone_content">Ağ tarafından sağlanan saat dilimini kullan</string>
+    <string name="date_set_date">Tarih</string>
+    <string name="date_set_time">Zaman</string>
+    <string name="date_select_time_zone">Saat dilimi</string>
+    <string name="date_24_hour_format">12H/24H</string>
+    <string name="date_ntp_configuration">NTP</string>
+    <string name="date_24_hour_example">13:00</string>
+    <string name="date_12_hour_example">01:00</string>
+    <string name="date_ntp_config_automatic">Otomatik</string>
+    <string name="date_ntp_config_manual">Manuel</string>
+    <string name="date_dialog_title_select_time_zone">Saat dilimini seçin</string>
+    <string name="date_dialog_title_ntp_server_configuration">NTP sunucu yapılandırması</string>
+    <!-- Display -->
+    <string name="display_title">Görüntülemek</string>
+    <string name="display_brightness_level">parlaklık seviyesi</string>
+    <string name="display_sleep">Uyku</string>
+    <string name="display_font_size">Yazı Boyutu</string>
+    <!-- Sound -->
+    <string name="sound_title">Ses</string>
+    <string name="sound_notification_title">Ses \u0026 bildirimi</string>
+    <string name="sound_ring_vol">Yüzük Vol.</string>
+    <string name="sound_intercom_vol">İnterkom Vol.</string>
+    <string name="sound_phone_ringtone">zil sesi</string>
+    <string name="sound_dial_pad_tones">Tuş takımı sesleri</string>
+    <string name="sound_touch_sounds">Dokunma sesleri</string>
+    <string name="sound_screen_locking_sounds">Ekran kilitleme sesleri</string>
+    <string name="sound_auto_answer">Otomatik cevap</string>
+    <string name="sound_button">Buton</string>
+    <!-- Ethernet -->
+    <string name="ethernet_title">Ethernet</string>
+    <string name="ethernet_ip_mode">Ethernet IP modu</string>
+    <string name="ethernet_enabled">Ethernet etkin</string>
+    <string name="ethernet_disabled">Ethernet devre dışı</string>
+    <!-- Language -->
+    <string name="language_title">Dilim</string>
+    <string name="language_input_title">Dil \u0026 girişi</string>
+    <string name="language_input_content">İngilizce(Birleşik Krallık):Android Klavye(AOSP)</string>
+    <!-- wifi -->
+    <string name="wifi_title">Wifi</string>
+    <string name="wifi_add_network">Ağ ekle</string>
+    <string name="wifi_network_ssid">"Ağ SSID'si"</string>
+    <string name="wifi_security">Güvenlik</string>
+    <string name="wifi_password">Parola</string>
+    <string name="wifi_show_password">Şifreyi göster</string>
+    <string name="wifi_show_advanced_options">Gelişmiş ayarları göster</string>
+    <string name="wifi_ip_settings">IP ayarları</string>
+    <string name="wifi_ip_address">IP adresi</string>
+    <string name="wifi_gateway">Geçit</string>
+    <string name="wifi_network_prefix_len">Ağ önek uzunluğu</string>
+    <string name="wifi_dns1">DNS1</string>
+    <string name="wifi_dns2">DNS2</string>
+    <string name="wifi_ntp_server_1">NTP Sunucusu</string>
+    <string name="wifi_ntp_server_2">NTP Sunucusu 2</string>
+    <string name="wifi_status">Durum</string>
+    <string name="wifi_signal_strength">Sinyal gücü</string>
+    <string name="wifi_link_speed">Bağlantı hızı</string>
+    <string name="wifi_frequency">Sıklık</string>
+    <string name="wifi_security_none">Hiçbiri</string>
+    <string name="wifi_security_wep">WEP</string>
+    <string name="wifi_security_wpa">"WPA PSK'sı"</string>
+    <string name="wifi_security_wpa2">"WPA2 PSK'sı"</string>
+    <string name="wifi_security_wpa_wpa2">"WPA/WPA2 PSK'sı"</string>
+    <string name="wifi_dialog_forget_config">Bu yapılandırmayı unut</string>
+    <string name="wifi_add_network_fail">Ağ eklenemedi.  Bu ağ kullanılamıyor.</string>
+    <!-- reset -->
+    <string name="master_clear_desc">"Bu eylem, bununla ilgili tüm verileri silecek "<b>"Bellek Aygıtı"</b>", dahil olmak üzere:\n\n"<li>"Dnake uygulama verileri"</li></string>
+    <!-- dialog text -->
+    <string name="dialog_title_system">sistem</string>
+    <string name="dialog_title_search">Arama İletişim Kutusu</string>
+    <string name="dialog_title_delete">İletişim Kutusunu Sil</string>
+    <string name="dialog_msg_delete">Bu kişiyi silmek istediğinizden emin misiniz?  Bu işlem geri alınamaz.</string>
+    <string name="dialog_msg_delete_multi">Bu kişileri silmek istediğinizden emin misiniz?  Bu işlem geri alınamaz.</string>
+    <string name="dialog_title_save">İletişim Kutusunu Kaydet</string>
+    <string name="dialog_msg_save">Bu kişiyi kaydetmek istediğinizden emin misiniz?</string>
+    <string name="dialog_title_first_set">İletişim Kutusunu Kaydet</string>
+    <string name="dialog_msg_first_set">Bu yapılandırmaları göndereceğinizden emin misiniz?</string>
+    <string name="dialog_search">Aramak</string>
+    <string name="dialog_confirm">Onaylamak</string>
+    <string name="dialog_send">Göndermek</string>
+    <string name="dialog_cancel">İptal etmek</string>
+    <string name="dialog_dtmf_input">"DTMF giriş İletişim Kutusu"</string>
+    <string name="dialog_ok">TAMAM</string>
+    <string name="dialog_alert">Uyarmak</string>
+    <!-- validate text -->
+    <string name="validate_password">giriş mevcut, bu şifre zorunludur</string>
+    <string name="validate_login">şifre mevcut, bu giriş zorunludur</string>
+    <string name="validate_password_valid">Lütfen en az 8 karakterden oluşan geçerli bir şifre giriniz!</string>
+    <string name="validate_password_enter">Lütfen bir şifre girin!</string>
+    <string name="validate_name_valid">Lütfen girilen adın 32 karakterden büyük olmadığından emin olun!</string>
+    <string name="validate_language_enter">Lütfen dil seçin!</string>
+    <string name="validate_plant_name_enter">Lütfen görüntülü kapı tesisi adını giriniz!</string>
+    <string name="validate_device_name_enter">Lütfen cihaz adını giriniz!</string>
+    <string name="none_txt">Hiçbiri</string>
+    <string name="networking_title">ağ iletişimi:</string>
+    <string name="networking_dialog_connect">Bağlamak</string>
+    <!-- tuya -->
+    <string name="talk_text_main">Kapı</string>
+    <string name="talk_text_person">Düz</string>
+    <string name="talk_text_unit_person">Kapı</string>
+    <string name="please_scan_qr">QR kodunu tarayın!</string>
+    <string name="hint_edit_name">cihaz adı</string>
+    <string name="devices_head_no">No.</string>
+    <string name="devices_head_id">İD</string>
+    <string name="devices_head_type">Tip</string>
+    <string name="devices_head_name">İsim</string>
+    <string name="forward_app">"Çağrıyı APP'ye yönlendirme"</string>
+    <string name="notification">Bildirim</string>
+    <string name="app_monitor">APP İzleme</string>
+    <string name="app">APP Monitörü</string>
+    <string name="uuid_isEmpty">"Lütfen önce UUID ve Authkey'i Web'de yapılandırın"</string>
+    <string name="tuya_id">İD</string>
+    <string name="tuya_name">İsim</string>
+    <string name="tuya_type">Tip</string>
+    <string name="get_qr_err">QR kodu alınamadı!</string>
+    <string name="app_unbound">Uygulama Bağlantısız!</string>
+    <!-- Message -->
+    <string name="title_message">İleti</string>
+    <string name="btn_clear">Açık</string>
+    <string name="title_incoming">Gelen</string>
+    <string name="title_outgoing">Dışına dönük</string>
+    <string name="prompt_message_clear_all">Tüm mesajları silmek ister misiniz?</string>
+    <!-- Settings -->
+    <string name="title_settings">Ayarlar</string>
+    <string name="menu_display">Görüntülemek</string>
+    <string name="menu_sounds">Sesler</string>
+    <string name="menu_date">Tarih ve Saat</string>
+    <string name="menu_language">Dilim</string>
+    <string name="menu_devices">cihazlar</string>
+    <string name="menu_mode">mod</string>
+    <string name="menu_version">sürüm</string>
+    <string name="menu_more">Daha</string>
+    <string name="menu_eth">Ethernet</string>
+    <string name="menu_wifi">Wifi</string>
+    <string name="menu_room">Oda</string>
+    <string name="menu_sip">Yudumlamak</string>
+    <string name="menu_password">Parola</string>
+    <string name="menu_apps">uygulamalar</string>
+    <string name="menu_reset">Sıfırla</string>
+    <!-- ethernet -->
+    <string name="networking_dhcp">DHCP</string>
+    <string name="networking_static">Statik</string>
+    <string name="ethernet_ip_address">IP</string>
+    <string name="ethernet_netmask">maske</string>
+    <string name="ethernet_gateway">Geçit</string>
+    <string name="ethernet_dns1">DNS</string>
+    <string name="ethernet_current_ip">Geçerli IP</string>
+    <!-- dnd -->
+    <string name="title_dnd">DND</string>
+    <string name="dnd_start_time">Başlangıç ​​saati</string>
+    <string name="dnd_end_time">Bitiş zamanı</string>
+    <!-- password -->
+    <string name="password_old">Eskimiş</string>
+    <string name="password_new">Yeni</string>
+    <string name="password_confirm">Onaylamak</string>
+    <!-- reset -->
+    <string name="prompt_reset">Fabrika varsayılanına sıfırlamak ister misiniz?</string>
+    <string name="btn_reset">SIFIRLA</string>
+    <!-- Room -->
+    <string name="room_building">Bina</string>
+    <string name="room_riser">yükseltici</string>
+    <string name="room_apart_no">Daire No.</string>
+    <string name="room_device">Cihaz</string>
+    <string name="room_sync">senkronizasyon</string>
+    <string name="room_cms_ip">"İYS IP'si"</string>
+    <string name="room_pwd">Parola</string>
+    <!-- voip -->
+    <string name="voip_sip">Yudumlamak</string>
+    <string name="voip_pwd">Parola</string>
+    <string name="voip_display_name">Ekran adı</string>
+    <string name="voip_register_name">Kayıt Adı</string>
+    <string name="voip_user_name">Kullanıcı adı</string>
+    <string name="voip_server_host">SIP Sunucusu Ana Bilgisayarı</string>
+    <string name="voip_server_host_port">SIP Sunucusu Ana Bilgisayar Bağlantı Noktası</string>
+    <string name="voip_outbound_proxy">Giden Proxy</string>
+    <string name="voip_outbound_proxy_port">Giden Proxy Bağlantı Noktası</string>
+    <string name="voip_transport_protocol">Taşıma Protokolü</string>
+    <string name="voip_video_payload">Video Yükü</string>
+    <!-- version -->
+    <string name="ver_firmware">bellenim</string>
+    <string name="ver_ip">IP</string>
+    <string name="ver_wifi_ip">kablosuz IP</string>
+    <string name="ver_mac">MAC</string>
+    <string name="net_err">Lütfen Ağı kontrol edin!</string>
+</resources>
